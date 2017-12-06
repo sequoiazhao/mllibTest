@@ -1,11 +1,14 @@
 package com.mllibtest
 
-import org.apache.spark.sql.{DataFrame, Row, SQLContext}
+import java.io._
+
 import org.apache.spark.ml.feature.{CountVectorizer, CountVectorizerModel}
-import org.apache.spark.mllib.feature.{IDF, IDFModel}
-import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
+import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.{DataFrame, Row, SQLContext}
+
+import scala.reflect.io.File
 
 /**
   * @author zhaoming on 2017-12-05 15:49
@@ -55,13 +58,14 @@ class Vectorizer(
   def toTFLP(df: DataFrame, cvModel: CountVectorizerModel): RDD[LabeledPoint] = {
     val documents = cvModel.transform(df)
       .select("id", "features")
-      .map { case Row(id: Long, features: Vector) => LabeledPoint(id, features) }
+       .map { case Row(id: Long, features: Vector) => LabeledPoint(id, features) }
 
     documents
   }
 
+
   //根据特征向量生成tf-idf模型
-  def genIDFModel(documents:RDD[LabeledPoint]):IDFModel = {
+  def genIDFModel(documents: RDD[LabeledPoint]): IDFModel = {
     val features = documents.map(_.features)
 
     val idf = new IDF(minDocFreq)
@@ -69,32 +73,88 @@ class Vectorizer(
   }
 
   //将词频LabeledPoint转化为TF-IDF的LabeledPoint
- def toTFIDFLP(documents:RDD[LabeledPoint],idfModel:IDFModel):RDD[LabeledPoint]={
+  def toTFIDFLP(documents: RDD[LabeledPoint], idfModel: IDFModel): RDD[LabeledPoint] = {
     val ids = documents.map(_.label)
-   val allFeatures = documents.map(_.features)
+    val allFeatures = documents.map(_.features)
 
-   val  tfidf =idfModel.transform(allFeatures)
+    val tfidf = idfModel.transform(allFeatures)
 
-   val tfidfDocs = ids.zip(tfidf).map{case (id,features)=>LabeledPoint(id,features)}
-   tfidfDocs
+    val tfidfDocs = ids.zip(tfidf).map { case (id, features) => LabeledPoint(id, features) }
+    tfidfDocs
   }
 
   //已经分词中文数据向量化
-  def vectorize(data:RDD[(Long,scala.Seq[String])]):(RDD[LabeledPoint],CountVectorizerModel,Vector)={
-    val sc =data.context
-    val sqlContext =SQLContext.getOrCreate(sc)
+  def vectorize(data: RDD[(Long, scala.Seq[String])]): (RDD[LabeledPoint], CountVectorizerModel, Vector) = {
+    val sc = data.context
+    val sqlContext = SQLContext.getOrCreate(sc)
     import sqlContext.implicits._
 
-    val tokenDF =data.toDF("id","tokens")
+    val tokenDF = data.toDF("id", "tokens")
 
     var startTime = System.nanoTime()
 
     //生成cvModle
+    val cvModel = genCvModel(tokenDF, vocabSize)
+    val cvTime = (System.nanoTime() - startTime) / 1e9
+    startTime = System.nanoTime()
+    println(s"start cvModel!\n\t time :$cvTime sec\n")
+
+    //changed to LabeledPoint
+    var tokensLP = toTFLP(tokenDF, cvModel)
+    val lpTime = (System.nanoTime() - startTime) / 1e9
+    startTime = System.nanoTime()
+    println(s"change LabeledPoint!\n\t time :$lpTime sec\n")
+
+    //changed to TFDF
+    var idfModel: IDFModel = null
+    if (toTFIDF) {
+      //create idfModel
+      idfModel = genIDFModel(tokensLP)
+      tokensLP = toTFIDFLP(tokensLP, idfModel)
+    }
+    val idfTime = (System.nanoTime() - startTime) / 1e9
+    println(s"change TFIDF end!\n\t time :$idfTime sec\n")
+    (tokensLP, cvModel, idfModel.idf)
 
   }
 
+  def vectorize(data: RDD[(Long, scala.Seq[String])], cvModel: CountVectorizerModel, idf: Vector): RDD[LabeledPoint] = {
+    val sc = data.context
+    val sqlContext = SQLContext.getOrCreate(sc)
+    import sqlContext.implicits._
+
+    val tokenDF = data.toDF("id", "tokens")
+
+    //转化为LabeledPoint
+    var tokensLP = toTFLP(tokenDF, cvModel)
+
+    if (toTFIDF) {
+      val idfModel = new IDFModel(idf)
+      tokensLP = toTFIDFLP(tokensLP, idfModel)
+    }
+
+    tokensLP
+  }
+
+  //save idf and cvModel
+  def save(modelPath: String, cvModel: CountVectorizerModel, idf: Vector): Unit = {
+    val bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(modelPath + File.separator + "IDF")))
+    bw.write(idf.toArray.mkString(","))
+    cvModel.save(modelPath + File.separator + "cvModel")
+    bw.close()
+  }
 
 
+  //load
+  def load(modelPath: String): (CountVectorizerModel, Vector) = {
+    val br = new BufferedReader(new InputStreamReader(new FileInputStream(modelPath + File.separator + "IDF")))
+    val idfArray = br.readLine().split(",").map(_.toDouble)
+    val idf = Vectors.dense(idfArray)
+    val cvModel = CountVectorizerModel.load(modelPath + File.separator + "cvModel")
+
+    br.close()
+    (cvModel, idf)
+  }
 }
 
 

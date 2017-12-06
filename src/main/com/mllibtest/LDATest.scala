@@ -58,6 +58,7 @@ object LDATest {
     //spark
 
     val conf = new SparkConf().setAppName("LDATest").setMaster("local[4]")
+      .set("spark.sql.warehouse.dir", "/spark-warehouse/")
     val sc = new SparkContext(conf)
 
 
@@ -85,7 +86,7 @@ object LDATest {
       (line._1,wordSegment(line._2))
     }.filter(_._2.nonEmpty).map(line=>(line._1,line._2.get))
 
-    resultRDD.foreach(println)
+   // resultRDD.foreach(println)
 
 
     //向量化
@@ -94,6 +95,12 @@ object LDATest {
     val vocabSize =5000
 
     val vectorizer = new Vectorizer()
+      .setMinDocFreq(minDocFreq)
+      .setToTFIDF(toTFIDF)
+      .setVocabSize(vocabSize)
+
+    val(vectorizedRDD,cvModle,idf)=vectorizer.vectorize(resultRDD)
+    println("end")
 
 
 
