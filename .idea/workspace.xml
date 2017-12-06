@@ -1,7 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4ce51da-a614-4d9a-9923-4fdba0f25c7f" name="Default" comment="" />
+    <list default="true" id="f4ce51da-a614-4d9a-9923-4fdba0f25c7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/default.dic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/regex.dic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/stopword.dic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/synonyms.dic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/db.lck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/log.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/log1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c10.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c101.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c111.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c121.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c130.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c141.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c150.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c161.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c171.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1e0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c20.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c200.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c211.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c221.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c230.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c241.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c251.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c260.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c271.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c281.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c290.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2d0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c2f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c300.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c31.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c311.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c321.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c331.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c340.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c351.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c361.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c371.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c380.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c391.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c3f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c400.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c411.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c421.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c430.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c441.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c451.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c461.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c470.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c481.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c490.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4b0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c501.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c51.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c510.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c521.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c530.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c541.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c550.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c561.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c570.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c581.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c590.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5b0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5d0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c60.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c601.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c610.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c621.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c630.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c641.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c650.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c661.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c670.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c681.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c690.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6b0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6d0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c701.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c71.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c711.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c721.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c731.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c741.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c751.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c761.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c771.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c781.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c791.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c7f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c801.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c81.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c811.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c821.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c831.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c840.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c851.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c860.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c871.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c880.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c891.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8a0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c90.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c901.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c911.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c920.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c931.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c940.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c951.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c960.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c971.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c981.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c990.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9e0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca01.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca11.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca21.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cc0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cd1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/ce1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/cf0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ansj_ansj_seg_5_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_nlpcn_nlp_lang_1_7_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/军事.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derby.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/id_rsa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/id_rsa.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/ambiguity.dic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/stop.dic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/service.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mllibtest/LDATest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mllibtest/MyUDAF.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mllibtest/TestUDF.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mllibtest/Vectorizer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mllibtest.iml" afterPath="$PROJECT_DIR$/mllibtest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,65 +202,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Vectorizer.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/Vectorizer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MllibTest1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="254">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
-                <element signature="e#23#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MllibTest2.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#23#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollaborativeFiltering.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/CollaborativeFiltering.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="77" lean-forward="true" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BreezePlot.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-              <folding>
-                <element signature="e#74#94#0" expanded="true" />
+                <element signature="e#23#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>import org.apache.spark.mllib</find>
+      <find>mllib</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\bigdata\spark\jars\spark-mllib_2.11-2.0.0.jar!\org\apache\spark\mllib</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -80,9 +250,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/CollaborativeFiltering.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/MyUDAF.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/TestUDF.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/LDATest.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/Vectorizer.scala" />
       </list>
     </option>
   </component>
@@ -92,11 +267,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="454" />
-    <option name="width" value="1824" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="241" />
+    <option name="y" value="463" />
+    <option name="width" value="1678" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -107,13 +282,16 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,13 +325,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="mllibtest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mllibtest" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="mllibtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="mllibtest" type="462c0819:PsiDirectoryNode" />
+              <item name="LDATest$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MllibTest2">
+  <component name="RunManager" selected="Application.LDATest">
     <configuration name="BreezePlot" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -186,6 +370,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mllibtest.BreezePlot" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mllibtest" />
+      <envs />
+    </configuration>
+    <configuration name="LDATest" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mllibtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mllibtest.LDATest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -224,6 +427,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mllibtest.MllibTest2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mllibtest" />
+      <envs />
+    </configuration>
+    <configuration name="TestUDF" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mllibtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mllibtest.TestUDF" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -316,16 +538,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MllibTest1" />
       <item index="1" class="java.lang.String" itemvalue="Application.BreezePlot" />
       <item index="2" class="java.lang.String" itemvalue="Application.MllibTest2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestUDF" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LDATest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.MllibTest2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MllibTest1" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BreezePlot" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.LDATest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestUDF" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MllibTest2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MllibTest1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BreezePlot" />
       </list>
     </recent_temporary>
   </component>
@@ -357,44 +583,46 @@
       <workItem from="1511923353438" duration="2551000" />
       <workItem from="1511936489645" duration="977000" />
       <workItem from="1511954076494" duration="1537000" />
+      <workItem from="1512104109535" duration="4743000" />
+      <workItem from="1512352476982" duration="7891000" />
+      <workItem from="1512457704440" duration="5237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12370000" />
+    <option name="totallyTimeSpent" value="30241000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="454" width="1824" height="1100" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3202186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30283225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30273223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21363637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18108974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32026145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -406,10 +634,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#23#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/CollaborativeFiltering.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="77" lean-forward="true" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -432,9 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#68#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -442,9 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,9 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,9 +752,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#23#68#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -508,9 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,9 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,9 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,9 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,9 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,9 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,56 +978,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#74#94#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/jar/breeze-viz_2.12-0.13.jar!/breeze/plot/Plot.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/TestUDF.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="924">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#74#94#0" expanded="true" />
+            <element signature="e#23#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MyUDAF.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="550">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
-            <element signature="e#23#68#0" expanded="true" />
+            <element signature="e#23#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="154">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
             <element signature="e#23#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/CollaborativeFiltering.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="77" lean-forward="true" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/LDATest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/Vectorizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
