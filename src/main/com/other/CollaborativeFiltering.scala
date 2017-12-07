@@ -1,4 +1,4 @@
-package com.mllibtest
+package com.other
 
 import org.apache.spark.{SparkConf, SparkContext}
 

@@ -58,7 +58,7 @@ class Vectorizer(
   def toTFLP(df: DataFrame, cvModel: CountVectorizerModel): RDD[LabeledPoint] = {
     val documents = cvModel.transform(df)
       .select("id", "features")
-       .map { case Row(id: Long, features: Vector) => LabeledPoint(id, features) }
+      .map { case Row(id: Long, features: Vector) => LabeledPoint(id, features) }
 
     documents
   }
@@ -80,6 +80,7 @@ class Vectorizer(
     val tfidf = idfModel.transform(allFeatures)
 
     val tfidfDocs = ids.zip(tfidf).map { case (id, features) => LabeledPoint(id, features) }
+
     tfidfDocs
   }
 
@@ -90,6 +91,8 @@ class Vectorizer(
     import sqlContext.implicits._
 
     val tokenDF = data.toDF("id", "tokens")
+    //可以在这里对接数据库组织数据
+    tokenDF.show()
 
     var startTime = System.nanoTime()
 
@@ -99,11 +102,13 @@ class Vectorizer(
     startTime = System.nanoTime()
     println(s"start cvModel!\n\t time :$cvTime sec\n")
 
+
     //changed to LabeledPoint
     var tokensLP = toTFLP(tokenDF, cvModel)
     val lpTime = (System.nanoTime() - startTime) / 1e9
     startTime = System.nanoTime()
     println(s"change LabeledPoint!\n\t time :$lpTime sec\n")
+    // tokensLP.foreach(println)
 
     //changed to TFDF
     var idfModel: IDFModel = null
@@ -112,29 +117,13 @@ class Vectorizer(
       idfModel = genIDFModel(tokensLP)
       tokensLP = toTFIDFLP(tokensLP, idfModel)
     }
+    // tokensLP.foreach(println)
     val idfTime = (System.nanoTime() - startTime) / 1e9
     println(s"change TFIDF end!\n\t time :$idfTime sec\n")
     (tokensLP, cvModel, idfModel.idf)
 
   }
 
-  def vectorize(data: RDD[(Long, scala.Seq[String])], cvModel: CountVectorizerModel, idf: Vector): RDD[LabeledPoint] = {
-    val sc = data.context
-    val sqlContext = SQLContext.getOrCreate(sc)
-    import sqlContext.implicits._
-
-    val tokenDF = data.toDF("id", "tokens")
-
-    //转化为LabeledPoint
-    var tokensLP = toTFLP(tokenDF, cvModel)
-
-    if (toTFIDF) {
-      val idfModel = new IDFModel(idf)
-      tokensLP = toTFIDFLP(tokensLP, idfModel)
-    }
-
-    tokensLP
-  }
 
   //save idf and cvModel
   def save(modelPath: String, cvModel: CountVectorizerModel, idf: Vector): Unit = {
@@ -158,8 +147,24 @@ class Vectorizer(
 }
 
 
-
-
+//  def vectorize(data: RDD[(Long, scala.Seq[String])], cvModel: CountVectorizerModel, idf: Vector): RDD[LabeledPoint] = {
+//    val sc = data.context
+//    val sqlContext = SQLContext.getOrCreate(sc)
+//    import sqlContext.implicits._
+//
+//    val tokenDF = data.toDF("id", "tokens")
+//
+//
+//    //转化为LabeledPoint
+//    var tokensLP = toTFLP(tokenDF, cvModel)
+//
+//    if (toTFIDF) {
+//      val idfModel = new IDFModel(idf)
+//      tokensLP = toTFIDFLP(tokensLP, idfModel)
+//    }
+//
+//    tokensLP
+//  }
 
 
 

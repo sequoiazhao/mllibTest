@@ -15,7 +15,7 @@ import scala.collection.mutable.ArrayBuffer
 /**
   * @author zhaoming on 2017-12-04 10:45
   **/
-object LDATest {
+object LDATrain {
 
   private val baseExpr =
     """[^\w-\s+\u4e00-\u9fa5]""".r //匹配英文字母、数字、中文汉字之外的字符
@@ -90,44 +90,38 @@ object LDATest {
 
 
     //向量化
-    val minDocFreq = 2
-    val toTFIDF = true
-    val vocabSize =5000
+    val minDocFreq = 2    //最小文档频率阈值
+    val toTFIDF = true      //是否将TF转化为TF-IDF
+    val vocabSize =2000    //词汇表大小
 
     val vectorizer = new Vectorizer()
       .setMinDocFreq(minDocFreq)
       .setToTFIDF(toTFIDF)
       .setVocabSize(vocabSize)
 
+
+    val vecModelPath = "D:/code/mllibtest/model"
+
     val(vectorizedRDD,cvModle,idf)=vectorizer.vectorize(resultRDD)
+    vectorizer.save(vecModelPath,cvModle,idf)
     println("end")
 
+    println("===========================")
+    vectorizedRDD.foreach(println)
+
+    println("===========================")
+    val trainRDD = vectorizedRDD.map(line=>(line.label.toLong,line.features))
+    trainRDD.foreach(println)
+
+    //LDA 训练
+
+    val k =10 //主题的个数
+    val analysisType ="em"  //参数估计
+    val maxIterations = 20  //迭代次数
+
+    //val ldaUtils = new LDAUtils()
 
 
-
-
-//    var resultRDD = cleanedRDD.map { line =>
-//      (line._1, DicAnalysis.parse(line._2).recognition(filter).toStringWithOutNature().split(",").toSeq())
-//    }.filter(_._2.nonEmpty).map(line => (line._1, line._2)
-
-    //    resultRDD.count()
-    //    resultRDD.foreach(println)
-
-
-    //println(DicLibrary.DEFAULT)
-    //分词，转化RDD
-    //    val filter = new StopRecognition()
-    //    filter.insertStopNatures("w")
-    //    filter.insertStopWords("的")
-    //
-    //
-    //    val testsentence = NlpAnalysis.parse("在ltvrsV1.0项目开发过程中，根据系统端测试需求，基于协同过滤等算法提高直播和点播节目匹配结果的准确度；进一步分析直播节目的全量和增量更新方法；\n\t引入新的时间、年代、描述性说明等标签，增加匹配的计算维度；统计现有媒资标签分布情况，优化标签的数量和准确性。")
-    //      .recognition(filter)
-    //      .toStringWithOutNature()
-    //
-    //    if (testsentence.length>0) {
-    //    //  testsentence.split(",").foreach(println)
-    //    }
 
 
   }
@@ -142,14 +136,12 @@ object LDATest {
 
   def baseClean(line: String): String = {
     var result = line.trim
-    val numToChar = "数"
-    val f2j = false
-
+    //val numToChar = "数"
+    //val f2j = false
 
     //去除不可见字符
     result = baseExpr.replaceAllIn(result, "")
     result = StringUtils.trimToEmpty(result)
-
 
     //去除英文字符
     result = enExpr.replaceAllIn(result, "")
@@ -159,3 +151,28 @@ object LDATest {
 
 
 }
+
+
+//    var resultRDD = cleanedRDD.map { line =>
+//      (line._1, DicAnalysis.parse(line._2).recognition(filter).toStringWithOutNature().split(",").toSeq())
+//    }.filter(_._2.nonEmpty).map(line => (line._1, line._2)
+
+//    resultRDD.count()
+//    resultRDD.foreach(println)
+
+
+//println(DicLibrary.DEFAULT)
+//分词，转化RDD
+//    val filter = new StopRecognition()
+//    filter.insertStopNatures("w")
+//    filter.insertStopWords("的")
+//
+//
+//    val testsentence = NlpAnalysis.parse("在ltvrsV1.0项目开发过程中，根据系统端测试需求，基于协同过滤等算法提高直播和点播节目匹配结果的准确度；进一步分析直播节目的全量和增量更新方法；\n\t引入新的时间、年代、描述性说明等标签，增加匹配的计算维度；统计现有媒资标签分布情况，优化标签的数量和准确性。")
+//      .recognition(filter)
+//      .toStringWithOutNature()
+//
+//    if (testsentence.length>0) {
+//    //  testsentence.split(",").foreach(println)
+//    }
+

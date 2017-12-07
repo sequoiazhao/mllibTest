@@ -1,4 +1,4 @@
-package com.mllibtest
+package com.other
 
 //import org.apache.spark.sql.Row
 //import org.apache.spark.sql.hive.HiveContext
