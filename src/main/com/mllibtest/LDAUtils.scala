@@ -1,9 +1,9 @@
 package com.mllibtest
 
 import org.apache.spark.Logging
-import org.apache.spark.ml.clustering.LDAModel
+import org.apache.spark.ml.feature.CountVectorizerModel
 import org.apache.spark.mllib.linalg.Vector
-import org.apache.spark.mllib.clustering.{EMLDAOptimizer, LDAOptimizer, OnlineLDAOptimizer}
+import org.apache.spark.mllib.clustering._
 import org.apache.spark.rdd.RDD
 
 /**
@@ -89,7 +89,63 @@ class LDAUtils(private var k: Int,
     optimizer
   }
 
-  def train(data:RDD[(Long,Vector)]):LDAModel={
+  def train(data: RDD[(Long, Vector)]): LDAModel = {
+    val sc = data.sparkContext
+
+    if (checkpointDir.nonEmpty) {
+      sc.setCheckpointDir(checkpointDir)
+    }
+
+    val actualCorpusSize = data.map(_._2.numActives).sum().toLong
+    val optimizer = selectOptimizer(algorithm, actualCorpusSize)
+
+    val lda = new LDA()
+      .setK(k)
+      .setOptimizer(optimizer)
+      .setMaxIterations(maxIterations)
+      .setDocConcentration(alpha)
+      .setTopicConcentration(beta)
+      .setCheckpointInterval(checkpointInterval)
+
+    //训练LDA模型
+    val trainStart = System.nanoTime()
+    val ldaModel = lda.run(data)
+    val trainElapsed =(System.nanoTime()-trainStart)/1e9
+
+    trainInfo(data,ldaModel,trainElapsed)
+    ldaModel
+
+  }
+
+  //打印训练相关信息
+  def trainInfo(data:RDD[(Long,Vector)],ldaModel:LDAModel,trainElapsed:Double)={
+    println("完成LDA模型训练！")
+    println(s"\t 训练时长：$trainElapsed sec")
+
+    val actualCorpusSize = data.map(_._2.numActives).sum().toLong
+
+    ldaModel match{
+      case distLDAModel:DistributedLDAModel=>
+        val avgLogLikelihood = distLDAModel.logLikelihood / actualCorpusSize.toDouble
+        val logPerplexity = distLDAModel.logPrior
+        println(s"\t训练数据平均对数似然度:$avgLogLikelihood")
+        println(s"\t训练数据对数困惑度：$logPerplexity")
+        println()
+
+      case localLDAModel:LocalLDAModel=>
+        val avgLogLikelihood = localLDAModel.logLikelihood(data)/actualCorpusSize.toDouble
+        val logPerplexity = localLDAModel.logPerplexity(data)
+        println(s"\t 训练数据平均对数似然度：$avgLogLikelihood")
+        println(s"\t 训练数据对数困惑度：$logPerplexity")
+        println()
+      case _=>
+
+    }
+  }
+
+  //lda新文档预测
+  def predict(data:RDD[(Long,Vector)],ldaModel:LDAModel,cvModel:CountVectorizerModel,sorted:Boolean=false)
+  :(RDD[(Long,Array[(Double,Int)])],Array[Array[(String,Double)]])={
 
   }
 
