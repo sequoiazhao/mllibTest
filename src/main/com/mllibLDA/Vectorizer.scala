@@ -1,4 +1,4 @@
-package com.mllibtest
+package com.mllibLDA
 
 import java.io._
 
@@ -144,30 +144,30 @@ class Vectorizer(
     br.close()
     (cvModel, idf)
   }
+
+
+  //计算时候用的
+  def vectorize(data: RDD[(Long, scala.Seq[String])], cvModel: CountVectorizerModel, idf: Vector): RDD[LabeledPoint] = {
+    val sc = data.context
+    val sqlContext = SQLContext.getOrCreate(sc)
+    import sqlContext.implicits._
+
+    val tokenDF = data.toDF("id", "tokens")
+    tokenDF.show()
+
+    //转化为LabeledPoint
+    var tokensLP = toTFLP(tokenDF, cvModel)
+
+    if (toTFIDF) {
+      val idfModel = new IDFModel(idf)
+      tokensLP = toTFIDFLP(tokensLP, idfModel)
+    }
+
+    tokensLP
+  }
+
+
 }
-
-
-//  def vectorize(data: RDD[(Long, scala.Seq[String])], cvModel: CountVectorizerModel, idf: Vector): RDD[LabeledPoint] = {
-//    val sc = data.context
-//    val sqlContext = SQLContext.getOrCreate(sc)
-//    import sqlContext.implicits._
-//
-//    val tokenDF = data.toDF("id", "tokens")
-//
-//
-//    //转化为LabeledPoint
-//    var tokensLP = toTFLP(tokenDF, cvModel)
-//
-//    if (toTFIDF) {
-//      val idfModel = new IDFModel(idf)
-//      tokensLP = toTFIDFLP(tokensLP, idfModel)
-//    }
-//
-//    tokensLP
-//  }
-
-
-
 
 
 

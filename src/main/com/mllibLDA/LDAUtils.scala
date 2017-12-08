@@ -1,6 +1,8 @@
-package com.mllibtest
+package com.mllibLDA
 
-import org.apache.spark.Logging
+import java.io.File
+
+import org.apache.spark.{Logging, SparkContext}
 import org.apache.spark.ml.feature.CountVectorizerModel
 import org.apache.spark.mllib.linalg.Vector
 import org.apache.spark.mllib.clustering._
@@ -110,45 +112,119 @@ class LDAUtils(private var k: Int,
     //训练LDA模型
     val trainStart = System.nanoTime()
     val ldaModel = lda.run(data)
-    val trainElapsed =(System.nanoTime()-trainStart)/1e9
+    val trainElapsed = (System.nanoTime() - trainStart) / 1e9
 
-    trainInfo(data,ldaModel,trainElapsed)
+    trainInfo(data, ldaModel, trainElapsed)
     ldaModel
 
   }
 
   //打印训练相关信息
-  def trainInfo(data:RDD[(Long,Vector)],ldaModel:LDAModel,trainElapsed:Double)={
+  def trainInfo(data: RDD[(Long, Vector)], ldaModel: LDAModel, trainElapsed: Double) = {
     println("完成LDA模型训练！")
-    println(s"\t 训练时长：$trainElapsed sec")
+    println(s"\t训练时长：$trainElapsed sec")
 
     val actualCorpusSize = data.map(_._2.numActives).sum().toLong
 
-    ldaModel match{
-      case distLDAModel:DistributedLDAModel=>
+    ldaModel match {
+      case distLDAModel: DistributedLDAModel =>
         val avgLogLikelihood = distLDAModel.logLikelihood / actualCorpusSize.toDouble
         val logPerplexity = distLDAModel.logPrior
         println(s"\t训练数据平均对数似然度:$avgLogLikelihood")
         println(s"\t训练数据对数困惑度：$logPerplexity")
         println()
 
-      case localLDAModel:LocalLDAModel=>
-        val avgLogLikelihood = localLDAModel.logLikelihood(data)/actualCorpusSize.toDouble
+      case localLDAModel: LocalLDAModel =>
+        val avgLogLikelihood = localLDAModel.logLikelihood(data) / actualCorpusSize.toDouble
         val logPerplexity = localLDAModel.logPerplexity(data)
         println(s"\t 训练数据平均对数似然度：$avgLogLikelihood")
         println(s"\t 训练数据对数困惑度：$logPerplexity")
         println()
-      case _=>
+      case _ =>
 
     }
   }
 
   //lda新文档预测
-  def predict(data:RDD[(Long,Vector)],ldaModel:LDAModel,cvModel:CountVectorizerModel,sorted:Boolean=false)
-  :(RDD[(Long,Array[(Double,Int)])],Array[Array[(String,Double)]])={
+  def predict(data: RDD[(Long, Vector)], ldaModel: LDAModel, cvModel: CountVectorizerModel, sorted: Boolean = false)
+  : (RDD[(Long, Array[(Double, Int)])], Array[Array[(String, Double)]]) = {
+    val vocabArray = cvModel.vocabulary
+
+    var docTopics: RDD[(Long, Array[(Double, Int)])] = null
+
+    if(sorted){
+      docTopics = getSortedDocTopics(data,ldaModel,sorted)
+    }else{
+      docTopics = getDocTopics(ldaModel,data).map(doc=>(doc._1,doc._2.toArray.zipWithIndex))
+    }
+
+    val topicWords :Array[Array[(String,Double)]]=getTopicWords(ldaModel,vocabArray)
+
+    (docTopics,topicWords)
 
   }
 
+  //主题描述，包括主题下每个词和权重
+  def getTopicWords(ldaModel:LDAModel,vocabArray:Array[String]):Array[Array[(String,Double)]]={
+    val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 20)
+
+    topicIndices.map{case (terms,termWeights)=>
+    terms.zip(termWeights).map{case (term,weight)=>(vocabArray(term.toInt),weight)}
+    }
+  }
+
+  //文档-主题分布结果
+  //(docID,topicDistributions)
+
+  def getDocTopics(ldaModel: LDAModel, corpus: RDD[(Long, Vector)]): RDD[(Long, Vector)] = {
+    var topicDistributions: RDD[(Long, Vector)] = null
+    ldaModel match {
+      case distLDAModel: DistributedLDAModel =>
+        topicDistributions = distLDAModel.toLocal.topicDistributions(corpus)
+      case localLDAModel: LocalLDAModel =>
+        topicDistributions = localLDAModel.topicDistributions(corpus)
+      case _ =>
+    }
+
+    topicDistributions
+  }
+
+//排序后的模型
+def getSortedDocTopics(corpus: RDD[(Long, Vector)], ldaModel: LDAModel, desc: Boolean = true): RDD[(Long, Array[(Double, Int)])] = {
+  var topicDistributions: RDD[(Long, Vector)] = null
+  ldaModel match {
+    case distLDAModel: DistributedLDAModel =>
+      topicDistributions = distLDAModel.toLocal.topicDistributions(corpus)
+    case localLDAModel: LocalLDAModel =>
+      topicDistributions = localLDAModel.topicDistributions(corpus)
+    case _ =>
+  }
+
+  val indexedDist= topicDistributions.map(doc=>(doc._1,doc._2.toArray.zipWithIndex))
+  if(desc){
+    indexedDist.map(doc=>(doc._1,doc._2.sortWith(_._1>_._1)))
+  }else{
+    indexedDist.map(doc=>(doc._1,doc._2.sortWith(_._1<_._1)))
+  }
+}
+
+  //save
+  def save(sc:SparkContext,modelPath:String,ldaModel:LDAModel):Unit={
+    ldaModel match {
+      case distModel :DistributedLDAModel=>
+        distModel.toLocal.save(sc,modelPath+File.separator+"model")
+      case localModel:LocalLDAModel=>
+        localModel.save(sc,modelPath+File.separator+"model")
+      case _=>
+        println("保存模型出错")
+    }
+  }
+
+  //load
+  def load(sc:SparkContext,modelPath:String):LDAModel={
+    val lDAModel = LocalLDAModel.load(sc,modelPath+File.separator+"model")
+    lDAModel
+  }
 
 }
 

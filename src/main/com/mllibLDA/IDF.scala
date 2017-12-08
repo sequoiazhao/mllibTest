@@ -1,8 +1,9 @@
-package com.mllibtest
+package com.mllibLDA
 
 /**
   * @author zhaoming on 2017-12-06 23:29
   **/
+
 import breeze.linalg.{DenseVector => BDV}
 import org.apache.spark.api.java.JavaRDD
 import org.apache.spark.mllib.linalg.{DenseVector, SparseVector, Vectors, _}
@@ -28,6 +29,7 @@ class IDF(val minDocFreq: Int) {
 
   /**
     * Computes the inverse document frequency.
+    *
     * @param dataset an RDD of term frequency vectors
     */
   def fit(dataset: RDD[Vector]): IDFModel = {
@@ -41,6 +43,7 @@ class IDF(val minDocFreq: Int) {
 
   /**
     * Computes the inverse document frequency.
+    *
     * @param dataset a JavaRDD of term frequency vectors
     */
   def fit(dataset: JavaRDD[Vector]): IDFModel = {
@@ -134,6 +137,7 @@ private object IDF {
       Vectors.dense(inv)
     }
   }
+
 }
 
 /**
@@ -166,6 +170,7 @@ class IDFModel(val idf: Vector) extends Serializable {
 
   /**
     * Transforms term frequency (TF) vectors to TF-IDF vectors (Java version).
+    *
     * @param dataset a JavaRDD of term frequency vectors
     * @return a JavaRDD of TF-IDF vectors
     */
@@ -180,7 +185,7 @@ private object IDFModel {
     * Transforms a term frequency (TF) vector to a TF-IDF vector with a IDF vector
     *
     * @param idf an IDF vector
-    * @param v a term frequence vector
+    * @param v   a term frequence vector
     * @return a TF-IDF vector
     */
   def transform(idf: Vector, v: Vector): Vector = {
@@ -191,6 +196,7 @@ private object IDFModel {
         val newValues = new Array[Double](nnz)
         var k = 0
         while (k < nnz) {
+         // println(idf.size, indices.length)
           newValues(k) = values(k) * idf(indices(k))
           k += 1
         }

@@ -1,14 +1,13 @@
-package com.mllibtest
+package com.mllibLDA
 
+import java.util
 import org.ansj.recognition.impl.StopRecognition
 import org.ansj.splitWord.analysis.DicAnalysis
 import org.apache.commons.lang3.StringUtils
 import org.apache.hadoop.fs.Path
 import org.apache.spark.{SparkConf, SparkContext}
-import java.util
-
 import org.ansj.domain.Term
-
+import org.apache.spark.mllib.clustering.LDAModel
 import scala.collection.mutable.ArrayBuffer
 
 
@@ -23,30 +22,29 @@ object LDATrain {
   private val enExpr = "[A-Za-z]+".r
 
 
-
-  def ansjSegment(text:String):util.List[Term] = {
+  def ansjSegment(text: String): util.List[Term] = {
     val filter = new StopRecognition()
     filter.insertStopNatures("w")
     filter.insertStopWords("的")
 
-    val result =DicAnalysis.parse(text).recognition(filter)
+    val result = DicAnalysis.parse(text).recognition(filter)
     result.getTerms
   }
 
 
-  def wordSegment(text:String):Option[Seq[String]]={
+  def wordSegment(text: String): Option[Seq[String]] = {
     var arrayBuffer = ArrayBuffer[String]()
 
     if (text != null && text != "") {
       val tmp = new util.ArrayList[Term]()
 
-      val result:util.List[Term] = ansjSegment(text)
+      val result: util.List[Term] = ansjSegment(text)
       tmp.addAll(result)
 
-      for(i<-0 until tmp.size()){
-      val term = tmp.get(i)
+      for (i <- 0 until tmp.size()) {
+        val term = tmp.get(i)
         var item = term.getName.trim()
-        arrayBuffer+=item
+        arrayBuffer += item
       }
     }
     Some(arrayBuffer)
@@ -61,10 +59,9 @@ object LDATrain {
       .set("spark.sql.warehouse.dir", "/spark-warehouse/")
     val sc = new SparkContext(conf)
 
-
     //读入文件
     val hadoopConf = sc.hadoopConfiguration
-    val inPath = "D:/code/mllibtest/data"
+    val inPath = "D:/code/mllibtest/data/train"
     val fs = new Path(inPath).getFileSystem(hadoopConf)
     val len = fs.getContentSummary(new Path(inPath)).getLength / (1024 * 1024)
     val minPart = (len / 32).toInt
@@ -82,17 +79,17 @@ object LDATrain {
     //    cleanedRDD.foreach(println)
     //去除符号，增加新的停用词
 
-    val resultRDD = cleanedRDD.map{line=>
-      (line._1,wordSegment(line._2))
-    }.filter(_._2.nonEmpty).map(line=>(line._1,line._2.get))
+    val resultRDD = cleanedRDD.map { line =>
+      (line._1, wordSegment(line._2))
+    }.filter(_._2.nonEmpty).map(line => (line._1, line._2.get))
 
-   // resultRDD.foreach(println)
+    // resultRDD.foreach(println)
 
 
     //向量化
-    val minDocFreq = 2    //最小文档频率阈值
-    val toTFIDF = true      //是否将TF转化为TF-IDF
-    val vocabSize =2000    //词汇表大小
+    val minDocFreq = 2 //最小文档频率阈值
+    val toTFIDF = true //是否将TF转化为TF-IDF
+    val vocabSize = 4000 //词汇表大小
 
     val vectorizer = new Vectorizer()
       .setMinDocFreq(minDocFreq)
@@ -101,28 +98,34 @@ object LDATrain {
 
 
     val vecModelPath = "D:/code/mllibtest/model"
+    val ldaModelPath = "D:/code/mllibtest/model/ldaModel"
 
-    val(vectorizedRDD,cvModle,idf)=vectorizer.vectorize(resultRDD)
-    vectorizer.save(vecModelPath,cvModle,idf)
+    val (vectorizedRDD, cvModle, idf) = vectorizer.vectorize(resultRDD)
+    vectorizer.save(vecModelPath, cvModle, idf)
     println("end")
 
     println("===========================")
     vectorizedRDD.foreach(println)
 
     println("===========================")
-    val trainRDD = vectorizedRDD.map(line=>(line.label.toLong,line.features))
+    val trainRDD = vectorizedRDD.map(line => (line.label.toLong, line.features))
     trainRDD.foreach(println)
 
     //LDA 训练
 
-    val k =10 //主题的个数
-    val analysisType ="em"  //参数估计
-    val maxIterations = 20  //迭代次数
+    val k = 10 //主题的个数
+    val analysisType = "em" //参数估计
+    val maxIterations = 20 //迭代次数
 
-    //val ldaUtils = new LDAUtils()
+    val ldaUtils = new LDAUtils()
+      .setK(k)
+      .setAlgorithm(analysisType)
+      .setMaxIterations(maxIterations)
 
+    val ldaModel: LDAModel = ldaUtils.train(trainRDD)
+    ldaUtils.save(sc, ldaModelPath, ldaModel)
 
-
+    sc.stop()
 
   }
 
@@ -130,6 +133,7 @@ object LDATrain {
     * 针对单行记录
     * 基础清理，包括:繁转简体、全角转半角、去除不可见字符、数值替换、去英文
     * 输入数据
+    *
     * @return 经过基础清洗的数据
     */
 
