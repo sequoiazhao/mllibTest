@@ -8,6 +8,7 @@ import org.ansj.recognition.impl.StopRecognition
 import org.ansj.splitWord.analysis.DicAnalysis
 import org.apache.commons.lang3.StringUtils
 import org.apache.hadoop.fs.Path
+import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.collection.mutable.ArrayBuffer
@@ -15,11 +16,12 @@ import scala.collection.mutable.ArrayBuffer
 /**
   * @author zhaoming on 2017-12-08 9:48
   **/
-object LDATestDemo {
+object LDATest {
 
   def main(args: Array[String]): Unit = {
     //spark
 
+    //=============================读取数据和分词部分将来由hive和UDF替换===================
     val conf = new SparkConf().setAppName("LDATest").setMaster("local[4]")
       .set("spark.sql.warehouse.dir", "/spark-warehouse/")
     val sc = new SparkContext(conf)
@@ -41,18 +43,21 @@ object LDATestDemo {
     //数据清洗
     val cleanedRDD = data.map(str => (str._1, baseClean(str._2)))
 
-    //    cleanedRDD.foreach(println)
-    //去除符号，增加新的停用词
-
+    //进行分词
     val resultRDD = cleanedRDD.map { line =>
       (line._1, wordSegment(line._2))
     }.filter(_._2.nonEmpty).map(line => (line._1, line._2.get))
 
 
-    //向量化
+    val sqlContext = SQLContext.getOrCreate(sc)
+    import sqlContext.implicits._
+    val tokenDF = resultRDD.toDF("id", "tokens")
+    //================================获得DataFrame可操作的数据集========================
+
+    //--向量化
     val minDocFreq = 2 //最小文档频率阈值
     val toTFIDF = true //是否将TF转化为TF-IDF
-    val vocabSize = 2000 //词汇表大小
+    val vocabSize = 4000 //词汇表大小
 
     val vectorizer = new Vectorizer()
       .setMinDocFreq(minDocFreq)
@@ -60,7 +65,7 @@ object LDATestDemo {
       .setVocabSize(vocabSize)
 
     val (cvModel, idf) = vectorizer.load(vecModelPath)
-    val vectorizedRDD = vectorizer.vectorize(resultRDD, cvModel, idf)
+    val vectorizedRDD = vectorizer.vectorize(tokenDF, cvModel, idf)
 
     val testRDD = vectorizedRDD.map(line => (line.label.toLong, line.features))
 
@@ -79,7 +84,7 @@ object LDATestDemo {
     val (docTopics, topicWords) = ldaUtils.predict(testRDD, ldaModel, cvModel, sorted = true)
 
 
-    //输出结果
+    //--输出结果
     println("文档-主题分布:")
     println(docTopics)
     docTopics.take(3).foreach(doc => {
@@ -96,8 +101,8 @@ object LDATestDemo {
       })
     })
 
-    //保存结果应该重新组成DataFrame
-
+    //保存结果应该重新组成文档-主题分布的DataFrame，存在对应的位置上
+    println(docTopics.getClass)
     println("end")
 
   }

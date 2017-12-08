@@ -85,12 +85,12 @@ class Vectorizer(
   }
 
   //已经分词中文数据向量化
-  def vectorize(data: RDD[(Long, scala.Seq[String])]): (RDD[LabeledPoint], CountVectorizerModel, Vector) = {
-    val sc = data.context
-    val sqlContext = SQLContext.getOrCreate(sc)
-    import sqlContext.implicits._
+  def vectorize(tokenDF: DataFrame): (RDD[LabeledPoint], CountVectorizerModel, Vector) = {
+    //val sc = data.context
+    //val sqlContext = SQLContext.getOrCreate(sc)
+    // import sqlContext.implicits._
 
-    val tokenDF = data.toDF("id", "tokens")
+    //val tokenDF = data.toDF("id", "tokens")
     //可以在这里对接数据库组织数据
     tokenDF.show()
 
@@ -125,6 +125,26 @@ class Vectorizer(
   }
 
 
+  //计算时候用的
+  def vectorize(tokenDF: DataFrame, cvModel: CountVectorizerModel, idf: Vector): RDD[LabeledPoint] = {
+    // val sc = data.context
+    //  val sqlContext = SQLContext.getOrCreate(sc)
+
+
+    tokenDF.show()
+
+    //转化为LabeledPoint
+    var tokensLP = toTFLP(tokenDF, cvModel)
+
+    if (toTFIDF) {
+      val idfModel = new IDFModel(idf)
+      tokensLP = toTFIDFLP(tokensLP, idfModel)
+    }
+
+    tokensLP
+  }
+
+
   //save idf and cvModel
   def save(modelPath: String, cvModel: CountVectorizerModel, idf: Vector): Unit = {
     val bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(modelPath + File.separator + "IDF")))
@@ -143,27 +163,6 @@ class Vectorizer(
 
     br.close()
     (cvModel, idf)
-  }
-
-
-  //计算时候用的
-  def vectorize(data: RDD[(Long, scala.Seq[String])], cvModel: CountVectorizerModel, idf: Vector): RDD[LabeledPoint] = {
-    val sc = data.context
-    val sqlContext = SQLContext.getOrCreate(sc)
-    import sqlContext.implicits._
-
-    val tokenDF = data.toDF("id", "tokens")
-    tokenDF.show()
-
-    //转化为LabeledPoint
-    var tokensLP = toTFLP(tokenDF, cvModel)
-
-    if (toTFIDF) {
-      val idfModel = new IDFModel(idf)
-      tokensLP = toTFIDFLP(tokensLP, idfModel)
-    }
-
-    tokensLP
   }
 
 

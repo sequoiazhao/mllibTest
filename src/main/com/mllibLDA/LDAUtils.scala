@@ -152,24 +152,24 @@ class LDAUtils(private var k: Int,
 
     var docTopics: RDD[(Long, Array[(Double, Int)])] = null
 
-    if(sorted){
-      docTopics = getSortedDocTopics(data,ldaModel,sorted)
-    }else{
-      docTopics = getDocTopics(ldaModel,data).map(doc=>(doc._1,doc._2.toArray.zipWithIndex))
+    if (sorted) {
+      docTopics = getSortedDocTopics(data, ldaModel, sorted)
+    } else {
+      docTopics = getDocTopics(ldaModel, data).map(doc => (doc._1, doc._2.toArray.zipWithIndex))
     }
 
-    val topicWords :Array[Array[(String,Double)]]=getTopicWords(ldaModel,vocabArray)
+    val topicWords: Array[Array[(String, Double)]] = getTopicWords(ldaModel, vocabArray)
 
-    (docTopics,topicWords)
+    (docTopics, topicWords)
 
   }
 
   //主题描述，包括主题下每个词和权重
-  def getTopicWords(ldaModel:LDAModel,vocabArray:Array[String]):Array[Array[(String,Double)]]={
+  def getTopicWords(ldaModel: LDAModel, vocabArray: Array[String]): Array[Array[(String, Double)]] = {
     val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 20)
 
-    topicIndices.map{case (terms,termWeights)=>
-    terms.zip(termWeights).map{case (term,weight)=>(vocabArray(term.toInt),weight)}
+    topicIndices.map { case (terms, termWeights) =>
+      terms.zip(termWeights).map { case (term, weight) => (vocabArray(term.toInt), weight) }
     }
   }
 
@@ -189,40 +189,40 @@ class LDAUtils(private var k: Int,
     topicDistributions
   }
 
-//排序后的模型
-def getSortedDocTopics(corpus: RDD[(Long, Vector)], ldaModel: LDAModel, desc: Boolean = true): RDD[(Long, Array[(Double, Int)])] = {
-  var topicDistributions: RDD[(Long, Vector)] = null
-  ldaModel match {
-    case distLDAModel: DistributedLDAModel =>
-      topicDistributions = distLDAModel.toLocal.topicDistributions(corpus)
-    case localLDAModel: LocalLDAModel =>
-      topicDistributions = localLDAModel.topicDistributions(corpus)
-    case _ =>
-  }
+  //排序后的模型
+  def getSortedDocTopics(corpus: RDD[(Long, Vector)], ldaModel: LDAModel, desc: Boolean = true): RDD[(Long, Array[(Double, Int)])] = {
+    var topicDistributions: RDD[(Long, Vector)] = null
+    ldaModel match {
+      case distLDAModel: DistributedLDAModel =>
+        topicDistributions = distLDAModel.toLocal.topicDistributions(corpus)
+      case localLDAModel: LocalLDAModel =>
+        topicDistributions = localLDAModel.topicDistributions(corpus)
+      case _ =>
+    }
 
-  val indexedDist= topicDistributions.map(doc=>(doc._1,doc._2.toArray.zipWithIndex))
-  if(desc){
-    indexedDist.map(doc=>(doc._1,doc._2.sortWith(_._1>_._1)))
-  }else{
-    indexedDist.map(doc=>(doc._1,doc._2.sortWith(_._1<_._1)))
+    val indexedDist = topicDistributions.map(doc => (doc._1, doc._2.toArray.zipWithIndex))
+    if (desc) {
+      indexedDist.map(doc => (doc._1, doc._2.sortWith(_._1 > _._1)))
+    } else {
+      indexedDist.map(doc => (doc._1, doc._2.sortWith(_._1 < _._1)))
+    }
   }
-}
 
   //save
-  def save(sc:SparkContext,modelPath:String,ldaModel:LDAModel):Unit={
+  def save(sc: SparkContext, modelPath: String, ldaModel: LDAModel): Unit = {
     ldaModel match {
-      case distModel :DistributedLDAModel=>
-        distModel.toLocal.save(sc,modelPath+File.separator+"model")
-      case localModel:LocalLDAModel=>
-        localModel.save(sc,modelPath+File.separator+"model")
-      case _=>
+      case distModel: DistributedLDAModel =>
+        distModel.toLocal.save(sc, modelPath + File.separator + "model")
+      case localModel: LocalLDAModel =>
+        localModel.save(sc, modelPath + File.separator + "model")
+      case _ =>
         println("保存模型出错")
     }
   }
 
   //load
-  def load(sc:SparkContext,modelPath:String):LDAModel={
-    val lDAModel = LocalLDAModel.load(sc,modelPath+File.separator+"model")
+  def load(sc: SparkContext, modelPath: String): LDAModel = {
+    val lDAModel = LocalLDAModel.load(sc, modelPath + File.separator + "model")
     lDAModel
   }
 

@@ -1,6 +1,7 @@
 package com.mllibLDA
 
 import java.util
+
 import org.ansj.recognition.impl.StopRecognition
 import org.ansj.splitWord.analysis.DicAnalysis
 import org.apache.commons.lang3.StringUtils
@@ -8,6 +9,8 @@ import org.apache.hadoop.fs.Path
 import org.apache.spark.{SparkConf, SparkContext}
 import org.ansj.domain.Term
 import org.apache.spark.mllib.clustering.LDAModel
+import org.apache.spark.sql.SQLContext
+
 import scala.collection.mutable.ArrayBuffer
 
 
@@ -15,6 +18,91 @@ import scala.collection.mutable.ArrayBuffer
   * @author zhaoming on 2017-12-04 10:45
   **/
 object LDATrain {
+
+
+  def main(args: Array[String]): Unit = {
+
+    //spark
+
+    val conf = new SparkConf().setAppName("LDATest").setMaster("local[4]")
+      .set("spark.sql.warehouse.dir", "/spark-warehouse/")
+    val sc = new SparkContext(conf)
+
+    //读入文件
+    val hadoopConf = sc.hadoopConfiguration
+    val inPath = "D:/code/mllibtest/data/train"
+    val fs = new Path(inPath).getFileSystem(hadoopConf)
+    val len = fs.getContentSummary(new Path(inPath)).getLength / (1024 * 1024)
+    val minPart = (len / 32).toInt
+
+    //数据标记
+    val data = sc.textFile(inPath, minPart).zipWithIndex().map(_.swap)
+
+    //getText.foreach(println)
+
+    //println(getText.context)
+
+    //数据清洗
+    val cleanedRDD = data.map(str => (str._1, baseClean(str._2)))
+
+    //cleanedRDD.foreach(println)
+    //去除符号，增加新的停用词
+
+    val resultRDD = cleanedRDD.map { line =>
+      (line._1, wordSegment(line._2))
+    }.filter(_._2.nonEmpty).map(line => (line._1, line._2.get))
+
+    // resultRDD.foreach(println)
+
+
+    //向量化
+    val minDocFreq = 2 //最小文档频率阈值
+    val toTFIDF = true //是否将TF转化为TF-IDF
+    val vocabSize = 4000 //词汇表大小
+
+    val vectorizer = new Vectorizer()
+      .setMinDocFreq(minDocFreq)
+      .setToTFIDF(toTFIDF)
+      .setVocabSize(vocabSize)
+
+
+    val vecModelPath = "D:/code/mllibtest/model"
+    val ldaModelPath = "D:/code/mllibtest/model/ldaModel"
+
+
+    val sqlContext = SQLContext.getOrCreate(sc)
+    import sqlContext.implicits._
+    val tokenDF = resultRDD.toDF("id", "tokens")
+
+    val (vectorizedRDD, cvModle, idf) = vectorizer.vectorize(tokenDF)
+    vectorizer.save(vecModelPath, cvModle, idf)
+    println("end")
+
+    println("===========================")
+    vectorizedRDD.foreach(println)
+
+    println("===========================")
+    val trainRDD = vectorizedRDD.map(line => (line.label.toLong, line.features))
+    trainRDD.foreach(println)
+
+    //LDA 训练
+
+    val k = 10 //主题的个数
+    val analysisType = "em" //参数估计
+    val maxIterations = 20 //迭代次数
+
+    val ldaUtils = new LDAUtils()
+      .setK(k)
+      .setAlgorithm(analysisType)
+      .setMaxIterations(maxIterations)
+
+    val ldaModel: LDAModel = ldaUtils.train(trainRDD)
+    ldaUtils.save(sc, ldaModelPath, ldaModel)
+
+    sc.stop()
+
+  }
+
 
   private val baseExpr =
     """[^\w-\s+\u4e00-\u9fa5]""".r //匹配英文字母、数字、中文汉字之外的字符
@@ -51,93 +139,8 @@ object LDATrain {
 
   }
 
-  def main(args: Array[String]): Unit = {
 
-    //spark
-
-    val conf = new SparkConf().setAppName("LDATest").setMaster("local[4]")
-      .set("spark.sql.warehouse.dir", "/spark-warehouse/")
-    val sc = new SparkContext(conf)
-
-    //读入文件
-    val hadoopConf = sc.hadoopConfiguration
-    val inPath = "D:/code/mllibtest/data/train"
-    val fs = new Path(inPath).getFileSystem(hadoopConf)
-    val len = fs.getContentSummary(new Path(inPath)).getLength / (1024 * 1024)
-    val minPart = (len / 32).toInt
-
-    //数据标记
-    val data = sc.textFile(inPath, minPart).zipWithIndex().map(_.swap)
-
-    //getText.foreach(println)
-
-    //println(getText.context)
-
-    //数据清洗
-    val cleanedRDD = data.map(str => (str._1, baseClean(str._2)))
-
-    //    cleanedRDD.foreach(println)
-    //去除符号，增加新的停用词
-
-    val resultRDD = cleanedRDD.map { line =>
-      (line._1, wordSegment(line._2))
-    }.filter(_._2.nonEmpty).map(line => (line._1, line._2.get))
-
-    // resultRDD.foreach(println)
-
-
-    //向量化
-    val minDocFreq = 2 //最小文档频率阈值
-    val toTFIDF = true //是否将TF转化为TF-IDF
-    val vocabSize = 4000 //词汇表大小
-
-    val vectorizer = new Vectorizer()
-      .setMinDocFreq(minDocFreq)
-      .setToTFIDF(toTFIDF)
-      .setVocabSize(vocabSize)
-
-
-    val vecModelPath = "D:/code/mllibtest/model"
-    val ldaModelPath = "D:/code/mllibtest/model/ldaModel"
-
-    val (vectorizedRDD, cvModle, idf) = vectorizer.vectorize(resultRDD)
-    vectorizer.save(vecModelPath, cvModle, idf)
-    println("end")
-
-    println("===========================")
-    vectorizedRDD.foreach(println)
-
-    println("===========================")
-    val trainRDD = vectorizedRDD.map(line => (line.label.toLong, line.features))
-    trainRDD.foreach(println)
-
-    //LDA 训练
-
-    val k = 10 //主题的个数
-    val analysisType = "em" //参数估计
-    val maxIterations = 20 //迭代次数
-
-    val ldaUtils = new LDAUtils()
-      .setK(k)
-      .setAlgorithm(analysisType)
-      .setMaxIterations(maxIterations)
-
-    val ldaModel: LDAModel = ldaUtils.train(trainRDD)
-    ldaUtils.save(sc, ldaModelPath, ldaModel)
-
-    sc.stop()
-
-  }
-
-  /**
-    * 针对单行记录
-    * 基础清理，包括:繁转简体、全角转半角、去除不可见字符、数值替换、去英文
-    * 输入数据
-    *
-    * @return 经过基础清洗的数据
-    */
-
-
+  //return 经过基础清洗的数据
   def baseClean(line: String): String = {
     var result = line.trim
     //val numToChar = "数"
@@ -156,27 +159,4 @@ object LDATrain {
 
 }
 
-
-//    var resultRDD = cleanedRDD.map { line =>
-//      (line._1, DicAnalysis.parse(line._2).recognition(filter).toStringWithOutNature().split(",").toSeq())
-//    }.filter(_._2.nonEmpty).map(line => (line._1, line._2)
-
-//    resultRDD.count()
-//    resultRDD.foreach(println)
-
-
-//println(DicLibrary.DEFAULT)
-//分词，转化RDD
-//    val filter = new StopRecognition()
-//    filter.insertStopNatures("w")
-//    filter.insertStopWords("的")
-//
-//
-//    val testsentence = NlpAnalysis.parse("在ltvrsV1.0项目开发过程中，根据系统端测试需求，基于协同过滤等算法提高直播和点播节目匹配结果的准确度；进一步分析直播节目的全量和增量更新方法；\n\t引入新的时间、年代、描述性说明等标签，增加匹配的计算维度；统计现有媒资标签分布情况，优化标签的数量和准确性。")
-//      .recognition(filter)
-//      .toStringWithOutNature()
-//
-//    if (testsentence.length>0) {
-//    //  testsentence.split(",").foreach(println)
-//    }
 
