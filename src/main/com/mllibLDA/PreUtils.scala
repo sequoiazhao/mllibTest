@@ -18,7 +18,7 @@ import scala.collection.mutable.ArrayBuffer
 class PreUtils extends Logging with Serializable {
 
    private val baseExpr =
-    """[^\w-\s+\u4e00-\u9fa5]""".r //匹配英文字母、数字、中文汉字之外的字符
+     """[^\w-\s+\u4e00-\u9fa5]""".r //匹配英文字母、数字、中文汉字之外的字符
 
   private val enExpr = "[A-Za-z]+".r
 

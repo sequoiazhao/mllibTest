@@ -42,6 +42,7 @@ object LDATrain {
     val sqlContext = SQLContext.getOrCreate(sc)
     import sqlContext.implicits._
     val tokenDF = resultRDD.toDF("id", "tokens")
+    println("输入数据的长度"+tokenDF.count())
 //=========================================================
 
     //向量化
@@ -67,9 +68,9 @@ object LDATrain {
 
     //LDA 训练
 
-    val k = 10 //主题的个数
+    val k = 15 //主题的个数
     val analysisType = "em" //参数估计
-    val maxIterations = 20 //迭代次数
+    val maxIterations = 30 //迭代次数
 
     val ldaUtils = new LDAUtils()
       .setK(k)

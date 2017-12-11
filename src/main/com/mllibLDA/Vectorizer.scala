@@ -92,7 +92,7 @@ class Vectorizer(
 
     //val tokenDF = data.toDF("id", "tokens")
     //可以在这里对接数据库组织数据
-    tokenDF.show()
+    //tokenDF.show()
 
     var startTime = System.nanoTime()
 
@@ -131,7 +131,7 @@ class Vectorizer(
     //  val sqlContext = SQLContext.getOrCreate(sc)
 
 
-    tokenDF.show()
+    //tokenDF.show()
 
     //转化为LabeledPoint
     var tokensLP = toTFLP(tokenDF, cvModel)
