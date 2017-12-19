@@ -2,8 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ce51da-a614-4d9a-9923-4fdba0f25c7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/cvModel/data/.part-r-00000-fed970cc-6292-4726-b8e9-7e99a27e523b.gz.parquet.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/cvModel/data/part-r-00000-fed970cc-6292-4726-b8e9-7e99a27e523b.gz.parquet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/._SUCCESS.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/._common_metadata.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/._metadata.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/.part-r-00000-dc0e23db-12ed-4cab-814c-27950e9e95fd.gz.parquet.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/_SUCCESS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/_common_metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/_metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/part-r-00000-dc0e23db-12ed-4cab-814c-27950e9e95fd.gz.parquet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/metadata/._SUCCESS.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/metadata/.part-00000.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/metadata/_SUCCESS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/cvModel/data/.part-r-00000-0bc1ec62-78de-49c2-8b03-3fb742860e94.gz.parquet.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/cvModel/data/part-r-00000-0bc1ec62-78de-49c2-8b03-3fb742860e94.gz.parquet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/._SUCCESS.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/._common_metadata.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/._metadata.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/.part-r-00000-209cf483-2d51-419b-9e21-249b34ff3d8c.gz.parquet.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/_SUCCESS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/_common_metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/_metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/part-r-00000-209cf483-2d51-419b-9e21-249b34ff3d8c.gz.parquet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/metadata/._SUCCESS.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/metadata/.part-00000.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/metadata/_SUCCESS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/test/测试.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/train/体育.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/train/军事.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/train/娱乐.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/train/文化.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/train/社会.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/train/经济.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/ldaModel/model/metadata/part-00000" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/metadata/part-00000" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/TestMain.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/data/测试.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model/cvModel/data/.part-r-00000-27a99a09-882a-4011-8e55-e4f95d2a3588.gz.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model/cvModel/data/part-r-00000-27a99a09-882a-4011-8e55-e4f95d2a3588.gz.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model/old/cvModel/data/.part-r-00000-d70371de-3ace-47c5-a683-a49f41f8ea68.gz.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model/old/cvModel/data/part-r-00000-d70371de-3ace-47c5-a683-a49f41f8ea68.gz.parquet" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/IDF" afterPath="$PROJECT_DIR$/model/IDF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cvModel/data/._metadata.crc" afterPath="$PROJECT_DIR$/model/cvModel/data/._metadata.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cvModel/data/_metadata" afterPath="$PROJECT_DIR$/model/cvModel/data/_metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cvModel/metadata/.part-00000.crc" afterPath="$PROJECT_DIR$/model/cvModel/metadata/.part-00000.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/cvModel/data/._metadata.crc" afterPath="$PROJECT_DIR$/model/old/cvModel/data/._metadata.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/cvModel/data/_metadata" afterPath="$PROJECT_DIR$/model/old/cvModel/data/_metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/cvModel/metadata/.part-00000.crc" afterPath="$PROJECT_DIR$/model/old/cvModel/metadata/.part-00000.crc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibtest/LDAUtils.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibtest/LDAUtils.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mllibtest.iml" afterPath="$PROJECT_DIR$/mllibtest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cvModel/metadata/part-00000" afterPath="$PROJECT_DIR$/model/cvModel/metadata/part-00000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/IDF" afterPath="$PROJECT_DIR$/model/old/IDF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/cvModel/metadata/part-00000" afterPath="$PROJECT_DIR$/model/old/cvModel/metadata/part-00000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/other/CollaborativeFiltering.scala" afterPath="$PROJECT_DIR$/src/main/com/other/CollaborativeFiltering.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_10_1_6_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_10_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_10_1_6_0.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,37 +97,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="LDATrain.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/LDATrain.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
+            <state relative-caret-position="26">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
-                <element signature="e#23#71#0" expanded="true" />
+                <element signature="e#22#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LDAUtils.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/LDAUtils.scala">
+      <file leaf-file-name="LDATest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <folding>
+                <element signature="e#22#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMain.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/TestMain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BreezePlot.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/com/other/BreezePlot.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-              <folding>
-                <element signature="e#23#54#0" expanded="true" />
-              </folding>
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vectorizer.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/Vectorizer.scala">
+      <file leaf-file-name="IDF.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/IDF.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1496">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="e#23#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2706">
+              <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vectorizer.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="156" column="14" lean-forward="false" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,6 +166,15 @@
     <findStrings>
       <find>import org.apache.spark.mllib</find>
       <find>mllib</find>
+      <find>transform</find>
+      <find>IDFModel.tr</find>
+      <find>ldaresult</find>
+      <find>52</find>
+      <find>id</find>
+      <find>2000</find>
+      <find>show</find>
+      <find>save</find>
+      <find>toTFLP</find>
     </findStrings>
     <dirStrings>
       <dir>D:\bigdata\spark\jars\spark-mllib_2.11-2.0.0.jar!\org\apache\spark\mllib</dir>
@@ -93,19 +196,28 @@
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/CollaborativeFiltering.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/MyUDAF.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibtest/IDF.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/TestUDF.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/LDATest.scala" />
         <option value="$PROJECT_DIR$/src/main/com/other/BreezePlot.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/other/CollaborativeFiltering.scala" />
         <option value="$PROJECT_DIR$/src/main/com/other/MllibTest1.scala" />
         <option value="$PROJECT_DIR$/src/main/com/other/MllibTest2.scala" />
         <option value="$PROJECT_DIR$/src/main/com/other/MyUDAF.scala" />
         <option value="$PROJECT_DIR$/src/main/com/other/TestUDF.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibtest/Vectorizer.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibtest/LDATrain.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/LDAUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/Vectorizer.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/IDF.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/LDATrain.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibtest/LDATestDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/LDATestDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/LDAUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/PreUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/other/CollaborativeFiltering.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala" />
+        <option value="$PROJECT_DIR$/src/main/TestMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/IDF.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala" />
       </list>
     </option>
   </component>
@@ -117,15 +229,35 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mllibtest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mllibtest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mllibtest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mllibtest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="97" />
-    <option name="y" value="64" />
-    <option name="width" value="1678" />
-    <option name="height" value="1007" />
+    <option name="x" value="176" />
+    <option name="y" value="137" />
+    <option name="width" value="1825" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -142,9 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,58 +301,94 @@
             </path>
             <path>
               <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mllibtest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="mllibtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mllibtest" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="mllibtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mllibtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-mllib_2.10-1.6.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-mllib_2.10-1.6.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="CountVectorizer.class" type="6117b065:FileNode" />
+            </path>
+            <path>
+              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="CountVectorizer.class" type="6117b065:FileNode" />
+              <item name="CountVectorizer" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="CountVectorizer.class" type="6117b065:FileNode" />
+              <item name="CountVectorizer$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34367815" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,14 +403,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.LDATest">
-    <configuration name="BreezePlot" type="Application" factoryName="Application" temporary="true">
+    <configuration name="CollaborativeFiltering" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mllibtest.*" />
+          <option name="PATTERN" value="com.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mllibtest.BreezePlot" />
+      <option name="MAIN_CLASS_NAME" value="com.other.CollaborativeFiltering" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -260,11 +425,11 @@
     <configuration name="LDATest" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mllibtest.*" />
+          <option name="PATTERN" value="com.mllibLDA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mllibtest.LDATrain" />
+      <option name="MAIN_CLASS_NAME" value="com.mllibLDA.LDATrain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -276,14 +441,14 @@
       <module name="mllibtest" />
       <envs />
     </configuration>
-    <configuration name="MllibTest1" type="Application" factoryName="Application" temporary="true">
+    <configuration name="LDATestDemo" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mllibtest.*" />
+          <option name="PATTERN" value="com.mllibLDA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mllibtest.MllibTest1" />
+      <option name="MAIN_CLASS_NAME" value="com.mllibLDA.LDATest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -295,14 +460,9 @@
       <module name="mllibtest" />
       <envs />
     </configuration>
-    <configuration name="MllibTest2" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mllibtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mllibtest.MllibTest2" />
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -317,7 +477,7 @@
     <configuration name="TestUDF" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mllibtest.*" />
+          <option name="PATTERN" value="com.mllibLDA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,19 +575,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MllibTest1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BreezePlot" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MllibTest2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestUDF" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LDATest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestUDF" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LDATest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LDATestDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CollaborativeFiltering" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestMain" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.LDATest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestUDF" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MllibTest2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MllibTest1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BreezePlot" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LDATestDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CollaborativeFiltering" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestUDF" />
       </list>
     </recent_temporary>
   </component>
@@ -463,7 +623,20 @@
       <workItem from="1512352476982" duration="7891000" />
       <workItem from="1512457704440" duration="8302000" />
       <workItem from="1512574632015" duration="5571000" />
-      <workItem from="1512628198393" duration="13167000" />
+      <workItem from="1512628198393" duration="15801000" />
+      <workItem from="1512697446081" duration="5244000" />
+      <workItem from="1512710445822" duration="6291000" />
+      <workItem from="1512718947390" duration="5541000" />
+      <workItem from="1512954913547" duration="19669000" />
+      <workItem from="1513155230262" duration="3626000" />
+      <workItem from="1513212079305" duration="719000" />
+      <workItem from="1513248530333" duration="6889000" />
+      <workItem from="1513298989818" duration="5139000" />
+      <workItem from="1513324626685" duration="150000" />
+      <workItem from="1513324786282" duration="153000" />
+      <workItem from="1513324945575" duration="6634000" />
+      <workItem from="1513567583076" duration="627000" />
+      <workItem from="1513575798224" duration="14603000" />
     </task>
     <task id="LOCAL-00001" summary="新增词向量内容">
       <created>1512569961009</created>
@@ -493,30 +666,65 @@
       <option name="project" value="LOCAL" />
       <updated>1512651483465</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="对分词结果进行TF-IDF3">
+      <created>1512659723468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512659723468</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mllibLDAV1.0">
+      <created>1512714955234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512714955234</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mllibLDAV1.1">
+      <created>1512719911898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512719911898</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mllibLDAV1.1">
+      <created>1512728653344</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512728653344</updated>
+    </task>
+    <task id="LOCAL-00009" summary="mllibLDAV1.12更新了DataFrame结果的读取，增加了求Intersection的过程。下一步要注意分词时是否也要调用udf">
+      <created>1512972151282</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512972151282</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52044000" />
+    <option name="totallyTimeSpent" value="129963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3202186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31952018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30273223" sideWeight="0.50427353" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30273223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32606325" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11057692" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15085287" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -545,7 +753,11 @@
     <MESSAGE value="新增词向量内容2" />
     <MESSAGE value="对分词结果进行TF-IDF" />
     <MESSAGE value="对分词结果进行TF-IDF2" />
-    <option name="LAST_COMMIT_MESSAGE" value="对分词结果进行TF-IDF2" />
+    <MESSAGE value="对分词结果进行TF-IDF3" />
+    <MESSAGE value="mllibLDAV1.0" />
+    <MESSAGE value="mllibLDAV1.1" />
+    <MESSAGE value="mllibLDAV1.12更新了DataFrame结果的读取，增加了求Intersection的过程。下一步要注意分词时是否也要调用udf" />
+    <option name="LAST_COMMIT_MESSAGE" value="mllibLDAV1.12更新了DataFrame结果的读取，增加了求Intersection的过程。下一步要注意分词时是否也要调用udf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,13 +766,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -569,29 +776,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -600,21 +786,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -623,21 +796,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -646,21 +806,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -669,21 +816,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -692,21 +826,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -715,21 +836,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -738,163 +846,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
     <entry file="jar://D:/jar/breeze-viz_2.12-0.13.jar!/breeze/plot/Plot.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MyUDAF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/CollaborativeFiltering.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MyUDAF.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/BreezePlot.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/CollaborativeFiltering.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.10/1.6.1/spark-mllib_2.10-1.6.1.jar!/org/apache/spark/ml/feature/CountVectorizerModel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/TestUDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="45" column="3" lean-forward="false" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/IDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="195" column="9" lean-forward="false" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
-          <folding>
-            <element signature="e#74#115#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/CollaborativeFiltering.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/TestUDF.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/com/other/MllibTest1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,37 +887,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derby.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_rsa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/other/CollaborativeFiltering.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="69" column="3" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/PreUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="65" lean-forward="false" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/LDATrain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDAUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
+        <state relative-caret-position="5060">
+          <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
           <folding>
-            <element signature="e#23#71#0" expanded="true" />
+            <element signature="e#22#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/LDAUtils.scala">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/IDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2706">
+          <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.10/1.6.0/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/ml/feature/CountVectorizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="156" column="14" lean-forward="false" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <element signature="e#22#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TestMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/other/BreezePlot.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibtest/Vectorizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1496">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#23#39#0" expanded="true" />
-          </folding>
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -981,6 +1026,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>scala-sdk-2.10.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

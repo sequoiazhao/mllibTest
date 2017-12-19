@@ -105,6 +105,9 @@ class Vectorizer(
 
     //changed to LabeledPoint
     var tokensLP = toTFLP(tokenDF, cvModel)
+    println("tokensLP===============================")
+    tokensLP.take(10).foreach(println)
+    println("tokensLP===============================end")
     val lpTime = (System.nanoTime() - startTime) / 1e9
     startTime = System.nanoTime()
     println(s"change LabeledPoint!\n\t time :$lpTime sec\n")
@@ -135,6 +138,7 @@ class Vectorizer(
 
     //转化为LabeledPoint
     var tokensLP = toTFLP(tokenDF, cvModel)
+
 
     if (toTFIDF) {
       val idfModel = new IDFModel(idf)

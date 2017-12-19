@@ -1,9 +1,10 @@
 package com.mllibLDA
 
 import org.apache.hadoop.fs.Path
-import org.apache.spark.mllib.clustering.LDAModel
+import org.apache.spark.mllib.clustering.{DistributedLDAModel, LDAModel}
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.sql.functions._
 
 
 /**
@@ -41,9 +42,22 @@ object LDATrain {
 
     val sqlContext = SQLContext.getOrCreate(sc)
     import sqlContext.implicits._
-    val tokenDF = resultRDD.toDF("id", "tokens")
-    println("输入数据的长度"+tokenDF.count())
-//=========================================================
+    val tokenDFx = resultRDD.toDF("idx", "tokens")
+    val tokenDF = tokenDFx.withColumn("id", monotonically_increasing_id()).limit(10)
+      .drop("idx")
+    println("输入数据的长度" + tokenDF.count())
+
+    //val df =  sqlContext.range(0, tokenDF.count())
+    // .withColumnRenamed("id","iid")
+    //df.show()
+    //val dfff = df.withColumn("iffdx",monotonically_increasing_id())
+
+    // dfff.show()
+    tokenDF.show()
+    //全部输出DF的某一列的行Array
+//    tokenDF.select("tokens").collect().foreach(println)
+
+    //=========================================================
 
     //向量化
     val minDocFreq = 2 //最小文档频率阈值
@@ -56,21 +70,22 @@ object LDATrain {
       .setVocabSize(vocabSize)
 
     val (vectorizedRDD, cvModle, idf) = vectorizer.vectorize(tokenDF)
-    vectorizer.save(vecModelPath, cvModle, idf)
+    //vectorizer.save(vecModelPath, cvModle, idf)
     println("end")
 
     println("===========================")
-    vectorizedRDD.foreach(println)
+    //vectorizedRDD.take(10).foreach(println)
+    vectorizedRDD.collect().foreach(println)
 
     println("===========================")
     val trainRDD = vectorizedRDD.map(line => (line.label.toLong, line.features))
-    trainRDD.foreach(println)
+    //trainRDD.foreach(println)
 
     //LDA 训练
 
     val k = 15 //主题的个数
     val analysisType = "em" //参数估计
-    val maxIterations = 30 //迭代次数
+    val maxIterations = 100//迭代次数
 
     val ldaUtils = new LDAUtils()
       .setK(k)
@@ -78,7 +93,14 @@ object LDATrain {
       .setMaxIterations(maxIterations)
 
     val ldaModel: LDAModel = ldaUtils.train(trainRDD)
-    ldaUtils.save(sc, ldaModelPath, ldaModel)
+    //ldaUtils.save(sc, ldaModelPath, ldaModel)
+
+      ldaModel match {
+        case distLDAModel:DistributedLDAModel=>
+          val logPerplexity = distLDAModel.logPrior
+          println(logPerplexity)
+      }
+
 
     sc.stop()
 

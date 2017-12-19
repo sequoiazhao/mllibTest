@@ -19,7 +19,8 @@ object LDATest {
       .set("spark.sql.warehouse.dir", "/spark-warehouse/")
     val sc = new SparkContext(conf)
 
-    val dataPath = "D:/code/mllibtest/data/test"
+    //val dataPath = "D:/code/mllibtest/data/test"
+    val dataPath = "data/test"
     val vecModelPath = "D:/code/mllibtest/model"
     val ldaModelPath = "D:/code/mllibtest/model/ldaModel"
 
@@ -58,7 +59,7 @@ object LDATest {
 
 
     //--加载LDA模型
-    val k = 10
+    val k = 15
     val analysisType = "em" //参数估计算法
     val maxIterations = 20 //迭代次数
 
@@ -83,6 +84,7 @@ object LDATest {
 
       //应该找到topic word在文章中是否出现过，才能作为标签
       val docResult2 = (doc._1, temp.map(_._2), temp.map(_._1.formatted("%.2f")), topicWords.apply(temp.head._2.toInt).map(_._1))
+      //println(docResult2)
       docResult2
     })
 
@@ -105,6 +107,22 @@ object LDATest {
       .withColumn("intersection",columnIntersection)
 
     resultData.show()
+
+
+    //输出结果用的
+        val tesp = docTopics.take(7).foreach(doc => {
+          val docTopicsArray = doc._2.map(topic => topic._2 + " : " + topic._1)
+          println(doc._1 + ":[" + docTopicsArray.mkString(" , ") + "]")
+        })
+
+        println("主题-词：")
+        println(topicWords.length)
+        topicWords.take(15).zipWithIndex.foreach(topic => {
+          println("Topic: " + topic._2)
+          topic._1.foreach(word => {
+            println(word._1 + "\t" + word._2)
+          })
+        })
 
   }
 
