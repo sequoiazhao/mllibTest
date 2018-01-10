@@ -13,6 +13,7 @@ import scala.reflect.io.File
 /**
   * @author zhaoming on 2017-12-05 15:49
   **/
+
 class Vectorizer(
                   private var minDocFreq: Int,
                   private var vocabSize: Int,
@@ -54,11 +55,25 @@ class Vectorizer(
     cvModel
   }
 
+
   //词频数据转化成特征LabeledPoint
   def toTFLP(df: DataFrame, cvModel: CountVectorizerModel): RDD[LabeledPoint] = {
     val documents = cvModel.transform(df)
       .select("id", "features")
+//        .map( x1=> {
+//          val ss: Long = x1.getAs[Long](0)
+//          val dd: Vector = x1.getAs[Vector](1)
+//          LabeledPoint(ss,dd)
+//        })
       .map { case Row(id: Long, features: Vector) => LabeledPoint(id, features) }
+//      .map(_ match{
+//      case Row(id: Long, features: Vector) => LabeledPoint(id, features)
+//    })
+
+
+//    val ratings = data.map(_.split(' ') match {
+//      case Array(user,item,rate)=>Rating(user.toInt,item.toInt,rate.toDouble)
+//    })
 
     documents
   }
