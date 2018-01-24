@@ -26,12 +26,15 @@ object TestWord2Vec {
       //      (0, "10 15 50 70 800 120 223 78"),
 //      (5, "I wish Java could use case classes I wish")
 //      ,(1, "are Logistic regression models neat are are are are are are")
-       (2, "你好 很好")
+       (2, "你好 很好 ")
     )).toDF("label", "sentence")
 
     val tokenizer = new Tokenizer().setInputCol("sentence").setOutputCol("text")
+
+
     val wordsData = tokenizer.transform(sentenceData)
     wordsData.show()
+    wordsData.collect().foreach(println)
 
     // Learn a mapping from words to Vectors.
     val word2Vec = new Word2Vec()

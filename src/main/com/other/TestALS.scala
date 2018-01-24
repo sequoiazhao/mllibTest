@@ -10,7 +10,7 @@ object TestALS {
 
     val sc = new SparkContext(conf)
 
-    val data = sc.textFile("D:\\code\\mllibTest\\mldata\\u1.txt")
+    val data = sc.textFile("D:\\code_test\\mllibTest\\mldata\\u1.txt")
     data.foreach(println)
     println(data.getClass)
 

@@ -30,9 +30,9 @@ object LDATest {
     val sqlcon:SQLContext=new HiveContext(sc)
     //println("ddd"+LDATest.getClass.getResource("") )
 
-    val dataPath = "D:\\code\\mllibtest\\data\\test"
-    val vecModelPath = "D:\\code\\mllibtest\\model"
-    val ldaModelPath = "D:\\code\\mllibtest\\model\\ldaModel"
+    val dataPath = "D:\\code_test\\mllibtest\\data\\test"
+    val vecModelPath = "D:\\code_test\\mllibtest\\model"
+    val ldaModelPath = "D:\\code_test\\mllibtest\\model\\ldaModel"
 
     //读入文件
     val hadoopConf = sc.hadoopConfiguration
@@ -82,6 +82,7 @@ object LDATest {
     val (docTopics, topicWords) = ldaUtils.predict(testRDD, ldaModel, cvModel, sorted = true)
 
 
+
     //--输出结果
     println("文档-主题分布:")
     println(docTopics)
@@ -102,6 +103,7 @@ object LDATest {
     //保存结果应该重新组成文档-主题分布的DataFrame，存在对应的位置上
     //存的格式是什么？要把主题词和其标签存下来？所属主题也要存下来
     val datax = tesp2.toDF("id", "topic", "score", "word")
+    datax.show()
     val Joindata = datax.join(tokenDF, Seq("id"))
       // .orderBy("topic")
      // .groupBy("topic","word")
@@ -130,6 +132,7 @@ object LDATest {
       val docTopicsArray = doc._2.map(topic => topic._2 + " : " + topic._1)
       println(doc._1 + ":[" + docTopicsArray.mkString(" , ") + "]")
     })
+
 
     println("主题-词：")
     println(topicWords.length)

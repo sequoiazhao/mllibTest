@@ -23,7 +23,7 @@ object LDATrain {
 
     //读入文件
     val hadoopConf = sc.hadoopConfiguration
-    val inPath = "D:/code/mllibtest/data/train"
+    val inPath = "D:/code_test/mllibtest/data/train"
     val fs = new Path(inPath).getFileSystem(hadoopConf)
     val len = fs.getContentSummary(new Path(inPath)).getLength / (1024 * 1024)
     val minPart = (len / 32).toInt
@@ -43,8 +43,8 @@ object LDATrain {
     // resultRDD.foreach(println)
 
 
-    val vecModelPath = "D:/code/mllibtest/model"
-    val ldaModelPath = "D:/code/mllibtest/model/ldaModel"
+    val vecModelPath = "D:/code_test/mllibtest/model"
+    val ldaModelPath = "D:/code_test/mllibtest/model/ldaModel"
 
 
     val sqlContext = SQLContext.getOrCreate(sc)
@@ -82,7 +82,7 @@ object LDATrain {
 
     println("===========================")
     //vectorizedRDD.take(10).foreach(println)
-vectorizedRDD.collect().foreach(println)
+vectorizedRDD.foreach(println)
 
     println("===========================")
     val trainRDD = vectorizedRDD.map(line => (line.label.toLong, line.features))

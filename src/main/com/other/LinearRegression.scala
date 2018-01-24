@@ -10,7 +10,7 @@ object LinearRegression {
   val sc = new SparkContext(conf)
 
   def main(args: Array[String]): Unit = {
-    val data = sc.textFile("D:\\code\\mllibTest\\mldata\\lpsa.txt")
+    val data = sc.textFile("D:\\code_test\\mllibTest\\mldata\\lpsa.txt")
 
     val parsedData = data.map(line => {
       val parts = line.split(',')

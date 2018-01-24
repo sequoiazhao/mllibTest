@@ -3,21 +3,21 @@
     <properties>
       <option name="languageLevel" value="Scala_2_10" />
       <compiler-classpath>
-        <root url="file://D:/bigdata/scalaold/lib/scala-compiler.jar" />
-        <root url="file://D:/bigdata/scalaold/lib/scala-library.jar" />
-        <root url="file://D:/bigdata/scalaold/lib/scala-reflect.jar" />
+        <root url="file://D:/bigdata/scala/lib/scala-compiler.jar" />
+        <root url="file://D:/bigdata/scala/lib/scala-library.jar" />
+        <root url="file://D:/bigdata/scala/lib/scala-reflect.jar" />
       </compiler-classpath>
     </properties>
     <CLASSES>
-      <root url="jar://D:/bigdata/scalaold/lib/scala-actors-migration.jar!/" />
-      <root url="jar://D:/bigdata/scalaold/lib/scala-actors.jar!/" />
-      <root url="jar://D:/bigdata/scalaold/lib/scala-library.jar!/" />
-      <root url="jar://D:/bigdata/scalaold/lib/scala-reflect.jar!/" />
-      <root url="jar://D:/bigdata/scalaold/lib/scala-swing.jar!/" />
-      <root url="jar://D:/bigdata/scalaold/src/scala-actors-src.jar!/" />
-      <root url="jar://D:/bigdata/scalaold/src/scala-library-src.jar!/" />
-      <root url="jar://D:/bigdata/scalaold/src/scala-reflect-src.jar!/" />
-      <root url="jar://D:/bigdata/scalaold/src/scala-swing-src.jar!/" />
+      <root url="jar://D:/bigdata/scala/lib/scala-actors-migration.jar!/" />
+      <root url="jar://D:/bigdata/scala/lib/scala-actors.jar!/" />
+      <root url="jar://D:/bigdata/scala/lib/scala-library.jar!/" />
+      <root url="jar://D:/bigdata/scala/lib/scala-reflect.jar!/" />
+      <root url="jar://D:/bigdata/scala/lib/scala-swing.jar!/" />
+      <root url="jar://D:/bigdata/scala/src/scala-actors-src.jar!/" />
+      <root url="jar://D:/bigdata/scala/src/scala-library-src.jar!/" />
+      <root url="jar://D:/bigdata/scala/src/scala-reflect-src.jar!/" />
+      <root url="jar://D:/bigdata/scala/src/scala-swing-src.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
