@@ -2,399 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ce51da-a614-4d9a-9923-4fdba0f25c7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haifengl_smile_core_1_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haifengl_smile_data_1_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haifengl_smile_graph_1_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haifengl_smile_math_1_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_myui_hivemall_core_0_4_1_alpha_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_myui_hivemall_mixserv_0_4_1_alpha_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jars.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/GraphData/Cit-HepTh.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/mldata1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/ChiSqSelectorTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestArrayRepeatUDF.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestFilterLongWord.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestNormalizer.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestVector2Array.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/testSimCo.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/PCATest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/RFormulaTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Token/Tokenizer.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/VectorAssembler.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/VectorSlicer.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/description.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/Pipeline/LDAml.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/Pipeline/RandomForest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/Pipeline/TestTemp.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/LDAandWord2Vec.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/splitWord.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/log/log.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/log/log1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/log/logmirror.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c10.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c101.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c111.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c121.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c130.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c141.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c150.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c161.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c171.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c180.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c191.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c1a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c1b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c1c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c1d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c1e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c1f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c20.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c200.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c211.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c221.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c230.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c241.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c251.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c260.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c271.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c281.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c290.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c2a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c2b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c2c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c2d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c2e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c2f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c300.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c311.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c321.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c331.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c340.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c351.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c361.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c371.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c380.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c391.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c3a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c3b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c3c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c3d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c3e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c3f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c400.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c411.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c421.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c430.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c441.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c451.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c461.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c470.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c481.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c490.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c4a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c4b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c4c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c4d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c4e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c4f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c501.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c510.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c521.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c530.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c541.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c550.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c561.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c570.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c581.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c590.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c5a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c5b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c5c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c5d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c5e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c5f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c60.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c601.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c610.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c621.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c630.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c641.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c650.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c661.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c670.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c681.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c690.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c6a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c6b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c6c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c6d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c6e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c6f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c701.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c711.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c721.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c731.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c741.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c751.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c761.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c771.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c781.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c791.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c7a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c7b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c7c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c7d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c7e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c7f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c801.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c811.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c821.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c831.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c840.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c851.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c860.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c871.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c880.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c891.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c8a0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c8b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c8c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c8d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c8e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c8f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c90.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c901.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c911.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c920.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c931.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c940.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c951.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c960.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c971.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c981.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c990.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c9a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c9b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c9c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c9d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c9e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/c9f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/ca01.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/ca1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/ca11.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/ca21.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/cb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/cc0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/cd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/ce1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/seg0/cf0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbc/service.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/db.lck" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/log/log.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/log/log1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/log/logmirror.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c10.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c101.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c111.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c121.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c130.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c141.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c150.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c161.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c171.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c180.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c191.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c1a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c1b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c1c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c1d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c1e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c1f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c20.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c200.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c211.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c221.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c230.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c241.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c251.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c260.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c271.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c281.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c290.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c2a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c2b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c2c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c2d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c2e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c2f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c300.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c311.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c321.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c331.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c340.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c351.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c361.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c371.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c380.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c391.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c3a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c3b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c3c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c3d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c3e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c3f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c400.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c411.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c421.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c430.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c441.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c451.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c461.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c470.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c481.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c490.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c4a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c4b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c4c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c4d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c4e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c4f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c501.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c510.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c521.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c530.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c541.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c550.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c561.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c570.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c581.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c590.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c5a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c5b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c5c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c5d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c5e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c5f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c60.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c601.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c610.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c621.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c630.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c641.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c650.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c661.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c670.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c681.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c690.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c6a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c6b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c6c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c6d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c6e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c6f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c701.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c711.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c721.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c731.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c741.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c751.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c761.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c771.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c781.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c791.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c7a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c7b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c7c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c7d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c7e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c7f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c801.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c811.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c821.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c831.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c840.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c851.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c860.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c871.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c880.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c891.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c8a0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c8b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c8c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c8d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c8e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c8f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c90.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c901.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c911.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c920.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c931.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c940.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c951.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c960.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c971.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c981.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c990.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c9a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c9b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c9c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c9d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c9e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/c9f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/ca01.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/ca1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/ca11.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/ca21.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/cb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/cc0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/cd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/ce1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/seg0/cf0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_dbd/service.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/VectorByWord2Vec.scala" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/log2.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/a9a.t" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/hivemall/test1.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haifengl_smile_core_1_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haifengl_smile_data_1_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haifengl_smile_graph_1_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haifengl_smile_math_1_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_myui_hivemall_core_0_4_1_alpha_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_myui_hivemall_mixserv_0_4_1_alpha_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/log/log1.dat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/db.lck" afterPath="$PROJECT_DIR$/metastore_db/db.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/log.ctrl" afterPath="$PROJECT_DIR$/metastore_db/log/log.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/log1.dat" afterPath="$PROJECT_DIR$/metastore_db/log/log1.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/IDF" afterPath="$PROJECT_DIR$/model/IDF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mllibtest.iml" afterPath="$PROJECT_DIR$/mllibtest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/PreUtils.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/PreUtils.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/TestWord2Vec.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/TestWord2Vec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDF.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDF.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala" afterPath="$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala" afterPath="$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/LDAandWord2Vec.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/LDAandWord2Vec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/other/LinearRegression.scala" afterPath="$PROJECT_DIR$/src/main/com/other/LinearRegression.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/other/LinearRegression3.scala" afterPath="$PROJECT_DIR$/src/main/com/other/LinearRegression3.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/other/TestALS.scala" afterPath="$PROJECT_DIR$/src/main/com/other/TestALS.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_2_10_0_11_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_2_10_0_11.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_10_0_11_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_10_0_11.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/com/Normalizer/TestNormalizer.scala" afterPath="$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -416,134 +51,48 @@
     <expand />
     <select />
   </component>
-  <component name="DockManager">
-    <window id="4">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="TestWord2Vec.scala" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/TestWord2Vec.scala">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="648">
-                    <caret line="52" column="53" lean-forward="false" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
-                    <folding>
-                      <element signature="e#21#70#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="mllibtest" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestWord2Vec.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/TestWord2Vec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#21#70#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LDATest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-              <folding>
-                <marker date="1516602350453" expanded="true" signature="2874:2899" ph="(...)" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LDAandWord2Vec.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDAandWord2Vec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VectorTFIDF.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDF.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1584">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VectorTFIDFPipeline.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1168">
-              <caret line="80" column="48" lean-forward="false" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
-              <folding>
-                <element signature="e#22#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LDAml.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/LDAml.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
-              <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestGraphx.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="67" column="3" lean-forward="false" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+              <folding>
+                <element signature="e#72#111#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomForest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/RandomForest.scala">
+      <file leaf-file-name="id_rsa" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/id_rsa">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="220">
+              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestTemp.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/TestTemp.scala">
+      <file leaf-file-name="id_rsa.pub" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/id_rsa.pub">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="derby.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/derby.log">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -553,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>import org.apache.spark.mllib</find>
       <find>mllib</find>
       <find>transform</find>
       <find>IDFModel.tr</find>
@@ -583,6 +131,7 @@
       <find>analysisType</find>
       <find>word2Vec</find>
       <find>code</find>
+      <find>tokensLP=====</find>
     </findStrings>
     <dirStrings>
       <dir>D:\bigdata\spark\jars\spark-mllib_2.11-2.0.0.jar!\org\apache\spark\mllib</dir>
@@ -599,10 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/com/mllibtest/MllibTest2.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibtest/CollaborativeFiltering.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibtest/MyUDAF.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibtest/MllibTest1.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/TestUDF.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibtest/LDATest.scala" />
         <option value="$PROJECT_DIR$/src/main/com/other/BreezePlot.scala" />
@@ -627,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/main/com/Pipeline/TestTemp.scala" />
         <option value="$PROJECT_DIR$/src/main/com/MLTest/PCATest.scala" />
         <option value="$PROJECT_DIR$/src/main/com/MLTest/Read.md" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala" />
         <option value="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestArrayUDF.scala" />
         <option value="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestArrayRepeatUDF.scala" />
@@ -642,14 +186,19 @@
         <option value="$PROJECT_DIR$/src/main/com/mllibLDA/splitWord.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibLDA/PreUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDF.scala" />
-        <option value="$PROJECT_DIR$/derby.log" />
-        <option value="$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala" />
         <option value="$PROJECT_DIR$/src/main/com/Pipeline/RandomForest.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDFPipeline.scala" />
-        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/LDAandWord2Vec.scala" />
         <option value="$PROJECT_DIR$/src/main/com/mllibLDA/TestWord2Vec.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/hivemall/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/com/hivemall/test1.scala" />
+        <option value="$PROJECT_DIR$/src/main/com/mllibLDA/LDAandWord2Vec.scala" />
         <option value="$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala" />
+        <option value="$PROJECT_DIR$/derby.log" />
+        <option value="$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala" />
+        <option value="D:/bigdata/spark/conf/spark-defaults.conf" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -676,10 +225,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-445" />
-    <option name="y" value="222" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="584" />
+    <option name="y" value="94" />
+    <option name="width" value="1615" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -696,9 +245,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -708,119 +256,34 @@
             </path>
             <path>
               <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="jars" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="jars" type="70bed36:NamedLibraryElementNode" />
-              <item name="breeze-viz_2.11-0.11.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="jars" type="70bed36:NamedLibraryElementNode" />
-              <item name="breeze-viz_2.11-0.11.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="plot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="jars" type="70bed36:NamedLibraryElementNode" />
-              <item name="breeze-viz_2.11-0.11.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="plot" type="462c0819:PsiDirectoryNode" />
-              <item name="Figure.class" type="6117b065:FileNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="jars" type="70bed36:NamedLibraryElementNode" />
-              <item name="breeze-viz_2.11-0.11.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="plot" type="462c0819:PsiDirectoryNode" />
-              <item name="Figure.class" type="6117b065:FileNode" />
-              <item name="Figure" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="jars" type="70bed36:NamedLibraryElementNode" />
-              <item name="breeze-viz_2.11-0.11.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="plot" type="462c0819:PsiDirectoryNode" />
-              <item name="Figure.class" type="6117b065:FileNode" />
-              <item name="Figure$" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="mllib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="mllib" type="462c0819:PsiDirectoryNode" />
-              <item name="clustering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-mllib_2.10:1.6.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-mllib_2.10-1.6.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="mllib" type="462c0819:PsiDirectoryNode" />
-              <item name="clustering" type="462c0819:PsiDirectoryNode" />
-              <item name="LDAModel" type="ce8f04f3:TypeDefinitionNode" />
+              <item name="mllibtest" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="mllibtest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SparkNet" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="D:/bigdata/hivemall" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34367815" />
     <property name="GO_FMT" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mllibLDA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code_test\mllibtest" />
       <recent name="D:\code\mllibtest\src\main" />
       <recent name="D:\code\mllibtest\src" />
     </key>
@@ -837,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VectorTFIDFPipeline">
+  <component name="RunManager" selected="Application.TestGraphx">
     <configuration name="LDAandWord2Vec" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -857,14 +320,14 @@
       <module name="mllibtest" />
       <envs />
     </configuration>
-    <configuration name="LDAandWord2Vece" type="Application" factoryName="Application" temporary="true">
+    <configuration name="TestGraphx" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.Pipeline.*" />
+          <option name="PATTERN" value="com.GraphX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mllibLDA.LDAandWord2Vece" />
+      <option name="MAIN_CLASS_NAME" value="com.GraphX.TestGraphx" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -884,25 +347,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mllibLDA.TestWord2Vec" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="mllibtest" />
-      <envs />
-    </configuration>
-    <configuration name="VectorTFIDF" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.Pipeline.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mllibLDA.VectorTFIDF" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1014,20 +458,39 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hivemall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.hivemall.test1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mllibtest" />
+      <envs />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.TestWord2Vec" />
-      <item index="1" class="java.lang.String" itemvalue="Application.VectorTFIDF" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LDAandWord2Vece" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LDAandWord2Vec" />
-      <item index="4" class="java.lang.String" itemvalue="Application.VectorTFIDFPipeline" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LDAandWord2Vec" />
+      <item index="2" class="java.lang.String" itemvalue="Application.VectorTFIDFPipeline" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestGraphx" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.VectorTFIDFPipeline" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LDAandWord2Vec" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestWord2Vec" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LDAandWord2Vece" />
-        <item index="4" class="java.lang.String" itemvalue="Application.VectorTFIDF" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestGraphx" />
+        <item index="1" class="java.lang.String" itemvalue="Application.VectorTFIDFPipeline" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LDAandWord2Vec" />
+        <item index="3" class="java.lang.String" itemvalue="Application.test1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestWord2Vec" />
       </list>
     </recent_temporary>
   </component>
@@ -1098,7 +561,10 @@
       <workItem from="1516601607964" duration="2380000" />
       <workItem from="1516605104523" duration="69000" />
       <workItem from="1516693971107" duration="3628000" />
-      <workItem from="1516763568523" duration="2245000" />
+      <workItem from="1516763568523" duration="10077000" />
+      <workItem from="1516849934648" duration="18703000" />
+      <workItem from="1516879958700" duration="2038000" />
+      <workItem from="1516932627943" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="新增词向量内容">
       <created>1512569961009</created>
@@ -1177,42 +643,49 @@
       <option name="project" value="LOCAL" />
       <updated>1515554644478</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="mllibLDAV1.14  基于pipeline进行LDA主题训练，很大程度上优化了代码，引入hivemall和deeplearning4j">
+      <created>1516780558710</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516780558710</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279265000" />
+    <option name="totallyTimeSpent" value="308060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3140676" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30273223" sideWeight="0.50427353" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12633263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31952018" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31952018" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12793177" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25159913" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25587606" sideWeight="0.5041494" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25587606" sideWeight="0.5041494" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3129771" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1235,7 +708,8 @@
     <MESSAGE value="mllibLDAV1.12更新了DataFrame结果的读取，增加了求Intersection的过程。下一步要注意分词时是否也要调用udf" />
     <MESSAGE value="mllibLDAV1.12更新了IFIDF调用" />
     <MESSAGE value="mllibLDAV1.13 增加一些新方法的调用，重写IFIDF和熟悉数据转换，增加归一化常用方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="mllibLDAV1.13 增加一些新方法的调用，重写IFIDF和熟悉数据转换，增加归一化常用方法" />
+    <MESSAGE value="mllibLDAV1.14  基于pipeline进行LDA主题训练，很大程度上优化了代码，引入hivemall和deeplearning4j" />
+    <option name="LAST_COMMIT_MESSAGE" value="mllibLDAV1.14  基于pipeline进行LDA主题训练，很大程度上优化了代码，引入hivemall和deeplearning4j" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1244,257 +718,81 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.10/1.6.0/spark-catalyst_2.10-1.6.0-sources.jar!/org/apache/spark/sql/Row.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="324" column="6" lean-forward="false" selection-start-line="324" selection-start-column="6" selection-end-line="324" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="87" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metastore_dbd/service.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.10/1.6.0/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/ml/feature/HashingTF.class">
+    <entry file="file://$PROJECT_DIR$/src/main/com/hivemall/scriptFile.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/myui/hivemall-core/0.4.1-alpha.6/hivemall-core-0.4.1-alpha.6.jar!/hivemall/HivemallConstants.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="88">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/MyUDAF.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/myui/hivemall-core/0.4.1-alpha.6/hivemall-core-0.4.1-alpha.6.jar!/hivemall/dataset/LogisticRegressionDataGeneratorUDTF.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/myui/hivemall-core/0.4.1-alpha.6/hivemall-core-0.4.1-alpha.6.jar!/hivemall/HivemallVersionUDF.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/TestUDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/TestScala.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/data/测试.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/bigdata/jars/breeze-viz_2.11-0.11.1.jar!/breeze/plot/Figure.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mldata1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/description.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TestMain.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/myui/hivemall-core/0.4.1-alpha.6/hivemall-core-0.4.1-alpha.6.jar!/hivemall/LearnerBaseUDTF.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/TestALS.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/1.6.0/spark-sql_2.10-1.6.0.jar!/org/apache/spark/sql/DataFrame.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/SGD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/MllibTest2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/MllibTest1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/LinearRegression3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/LinearRegression.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/CollaborativeFiltering.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/other/BreezePlot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestFilterLongWord.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="242">
           <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/IDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.10/1.6.0/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/mllib/linalg/Vector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestNormalizer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestArrayRepeatUDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="-396">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Normalizer/testSimCo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/TestTFIDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestVector2Array.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        <state relative-caret-position="-44">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/VectorSlicer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#20#59#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/PCATest.scala">
+    <entry file="jar://D:/bigdata/hivemall/hivemall-spark-0.4.2-rc.2-with-dependencies.jar!/org/apache/spark/sql/hive/HivemallOps.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#20#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Token/Tokenizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/VectorAssembler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="e#20#70#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/ChiSqSelectorTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <element signature="e#20#68#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/RFormulaTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="e#20#63#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1505,138 +803,292 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/PreUtils.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/com/hivemall/test1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDAUtils.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/ChiSqSelectorTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4510">
-          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/splitWord.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
+        <state relative-caret-position="190">
           <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/LDAml.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="76" column="42" lean-forward="false" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestArrayRepeatUDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/Vectorizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="122" column="31" lean-forward="false" selection-start-line="122" selection-start-column="31" selection-end-line="122" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="108" column="43" lean-forward="false" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/TestTFIDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/TestWord2Vec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="53" lean-forward="false" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding>
-            <element signature="e#22#54#0" expanded="false" />
+            <element signature="e#21#70#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestVector2Array.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="79" column="16" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        <state relative-caret-position="616">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDAandWord2Vec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="256" column="27" lean-forward="true" selection-start-line="256" selection-start-column="27" selection-end-line="256" selection-end-column="27" />
+          <folding>
+            <element signature="e#22#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mllibtest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5871">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="59" column="31" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="65" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/derby.log">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metastore_db/service.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metastore_db/README_DO_NOT_TOUCH_FILES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1980">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/docker.properties.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/fairscheduler.xml.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/spark-env.sh.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-994">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/spark-defaults.conf.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/spark-defaults.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/slaves.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/metrics.properties.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3282">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/log4j.properties.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/bigdata/spark/conf/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3036">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDAandWord2Vec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="0">
+          <caret line="67" column="3" lean-forward="false" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
           <folding>
-            <marker date="1516602350453" expanded="true" signature="2874:2899" ph="(...)" />
+            <element signature="e#72#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/id_rsa">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state relative-caret-position="220">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/TestWord2Vec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1584">
-          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/LDAml.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/RandomForest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/TestTemp.scala">
+    <entry file="file://$PROJECT_DIR$/derby.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1168">
-          <caret line="80" column="48" lean-forward="false" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
-          <folding>
-            <element signature="e#22#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_rsa.pub">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1718,7 +1170,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jars</last-edited>
+          <last-edited>scala-sdk-2.10.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

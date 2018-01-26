@@ -35,7 +35,8 @@ object LDAandWord2Vec extends splitWord {
 
     //需要测试一下syn在大数据集上的效果，看能否找到相似词
 
-    model.getVectors.show()
+    model.getVectors.show(false)
+
    // println(model.getVectors.getClass)
 
 

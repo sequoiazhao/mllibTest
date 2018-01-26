@@ -121,7 +121,7 @@ class Vectorizer(
     //changed to LabeledPoint
     var tokensLP = toTFLP(tokenDF, cvModel)
     println("tokensLP===============================")
-    tokensLP.take(10).foreach(println)
+    //tokensLP.take(10).foreach(println)
     println("tokensLP===============================end")
     val lpTime = (System.nanoTime() - startTime) / 1e9
 

@@ -4,16 +4,16 @@ import com.mllibLDA.PreUtils
 import org.apache.hadoop.fs.Path
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.ml.Pipeline
-import org.apache.spark.ml.feature.CountVectorizer
+import org.apache.spark.ml.feature.{CountVectorizer, Word2Vec}
 import org.apache.spark.mllib.clustering._
-import org.apache.spark.mllib.linalg.Vector
+import org.apache.spark.mllib.linalg.{Matrix, Vector}
 import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.hive.HiveContext
-import org.apache.spark.sql.types.LongType
-import org.apache.spark.sql.{Row, SQLContext}
+import org.apache.spark.sql.types.{LongType, StructType}
+import org.apache.spark.sql.{DataFrame, Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -77,7 +77,6 @@ object VectorTFIDFPipeline {
     val documentsIDF2 = model.transform(tokenDF)
 
 
-
     val trainRDD = documentsIDF2.select("id", "features")
       .map { case Row(id: Long, features: Vector) => LabeledPoint(id, features) }
       .map(line => (line.label.toLong, line.features))
@@ -130,7 +129,7 @@ object VectorTFIDFPipeline {
 
     val sorted = false
     val testRDD = trainRDD
-    val cvModel =cv.fit(tokenDF)
+    val cvModel = cv.fit(tokenDF)
 
     //var docTopics: RDD[(Long, Array[(Double, Int)])] = null
 
@@ -159,20 +158,86 @@ object VectorTFIDFPipeline {
     val docTopics = indexedDist //文章在topic上的得分 RDD
 
     //indexedDist.take(1).foreach(doc => (doc._1, doc._2.foreach(println)))
+    //println(ldaModel.topicsMatrix.numNonzeros)
 
-    val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 20)
+    //    val datas = ldaModel.describeTopics(maxTermsPerTopic = ldaModel.topicsMatrix.numNonzeros/10).map { case (terms, termWeights) =>
+    //
+    ////       terms.zip(termWeights).map { case (term, weight) =>
+    ////         //println(term,weight)
+    ////         (cvModel.vocabulary(term.toInt), weight) }
+    //
+    //      val data=  terms.zip(termWeights)
+    //
+    ////      val DataCopy = sc.parallelize(data)
+    ////        val ss =DataCopy.groupByKey().toDF()
+    ////       // ss.show()
+    ////        ss
+    //
+    //    }
+    //
+    //datas
+
+
+    val datas = ldaModel.describeTopics(maxTermsPerTopic = ldaModel.topicsMatrix.numNonzeros / 10).apply(0)._1
+    val weights = ldaModel.describeTopics(maxTermsPerTopic = ldaModel.topicsMatrix.numNonzeros / 10).apply(0)._2
+    val all = datas.zip(weights).map { case (term, weight) => (cvModel.vocabulary(term.toInt), weight) }
+    val datacopy = sc.parallelize(all.zipWithIndex)
+    val ttt = datacopy.toDF()
+
+    ttt.show()
+
+
+    val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 20000)
     val topicWords = topicIndices.map { case (terms, termWeights) =>
       terms.zip(termWeights).map { case (term, weight) => (cvModel.vocabulary(term.toInt), weight) }
     }
+
+    val ss = topicWords.zipWithIndex
+    val tt = sc.parallelize(ss)
+    val tt2 = tt.toDF()
+
+    tt2.show(false)
+
+
+
+    //1、调用word2Vec
+    val word2Vec = new Word2Vec()
+      .setInputCol("tokens")
+      .setOutputCol("result")
+      .setVectorSize(10)
+      .setMinCount(1)
+      .setMaxIter(100)
+    //
+    val modelVec = word2Vec.fit(tokenDF)
+    //
+    val resultVec = modelVec.transform(tokenDF)
+    //
+    //    result.select("result").take(10).foreach(println)
+    //
+    //
+
 
     println(s" topics:")
     topicWords.zipWithIndex.foreach { case (topic, i) =>
       println(s"TOPIC $i")
       topic.foreach { case (term, weight) =>
         println(s"$term\t$weight")
+        val syn = modelVec.findSynonyms(term, 5).select(col("word"),format_number(col("similarity"),2)).collect()
+          syn.foreach(println)
+        //syn.show()
       }
       println()
     }
+
+
+    //val syn = modelVec.findSynonyms("英雄", 5)
+    //syn.show()
+    //
+    //    //需要测试一下syn在大数据集上的效果，看能否找到相似词
+    //
+     modelVec.getVectors.show(false)
+   println( modelVec.getVectors.count())
+
 
     // topicWords.take(1).foreach(doc => doc.foreach(x => println(x._1, x._2))) //某个topic词袋中的词 Array
 
@@ -189,9 +254,10 @@ object VectorTFIDFPipeline {
 
     val joinData = datax.join(tokenDF, Seq("id"))
 
-    joinData.show(false)
+    // joinData.show(false)
 
   }
+
 
 }
 
