@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="hivemall">
+    <CLASSES>
+      <root url="file://D:/bigdata/hivemall" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/bigdata/hivemall" recursive="false" />
+  </library>
+</component>

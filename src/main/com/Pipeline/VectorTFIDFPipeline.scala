@@ -184,10 +184,10 @@ object VectorTFIDFPipeline {
     val datacopy = sc.parallelize(all.zipWithIndex)
     val ttt = datacopy.toDF()
 
-    ttt.show()
+    // ttt.show()
 
 
-    val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 20000)
+    val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 10)
     val topicWords = topicIndices.map { case (terms, termWeights) =>
       terms.zip(termWeights).map { case (term, weight) => (cvModel.vocabulary(term.toInt), weight) }
     }
@@ -196,8 +196,7 @@ object VectorTFIDFPipeline {
     val tt = sc.parallelize(ss)
     val tt2 = tt.toDF()
 
-    tt2.show(false)
-
+    //tt2.show(false)
 
 
     //1、调用word2Vec
@@ -206,28 +205,43 @@ object VectorTFIDFPipeline {
       .setOutputCol("result")
       .setVectorSize(10)
       .setMinCount(1)
-      .setMaxIter(100)
+      .setMaxIter(10)
     //
     val modelVec = word2Vec.fit(tokenDF)
     //
     val resultVec = modelVec.transform(tokenDF)
+
+
     //
     //    result.select("result").take(10).foreach(println)
-    //
-    //
 
 
     println(s" topics:")
-    topicWords.zipWithIndex.foreach { case (topic, i) =>
+    val iss2 = topicWords.zipWithIndex.map { case (topic, i) =>
       println(s"TOPIC $i")
-      topic.foreach { case (term, weight) =>
+      val tttx = topic.map { case (term, weight) =>
         println(s"$term\t$weight")
-        val syn = modelVec.findSynonyms(term, 5).select(col("word"),format_number(col("similarity"),2)).collect()
-          syn.foreach(println)
-        //syn.show()
+        //val syn = modelVec.findSynonyms(term, 5).select(col("word")).collect()
+        val syn = modelVec.findSynonyms(term, 5).select(col("word")).collect()
+
+        val syn2 = syn.map { case Row(i) => i.toString }
+        syn2
+
       }
-      println()
+
+      val ss2 = tttx.flatten //二维数组转一维
+    val ss3 = ss2.union(topic.map(_._1))
+
+      // (topic.map(_._1), ss3)
+      //(ss3, topic.map(_._1))
+
+      ss3
     }
+
+
+
+
+    //  sc.parallelize(iss2).toDF("topic","newword").show(false)
 
 
     //val syn = modelVec.findSynonyms("英雄", 5)
@@ -235,8 +249,8 @@ object VectorTFIDFPipeline {
     //
     //    //需要测试一下syn在大数据集上的效果，看能否找到相似词
     //
-     modelVec.getVectors.show(false)
-   println( modelVec.getVectors.count())
+    //modelVec.getVectors.show(false)
+    // println( modelVec.getVectors.count())
 
 
     // topicWords.take(1).foreach(doc => doc.foreach(x => println(x._1, x._2))) //某个topic词袋中的词 Array
@@ -244,13 +258,16 @@ object VectorTFIDFPipeline {
     //=========================归类文章到DataFrame=================
 
     val tesp2 = docTopics.map(doc => {
-      val temp = doc._2.filter(_._1 > 0.1)
+      //val temp = doc._2.filter(_._1 > 0.1)
+      val temp = doc._2
 
-      val docResult = (doc._1, temp.map(_._2), temp.map(_._1), topicWords.apply(doc._2.max._2).map(_._1))
+      // val docResult = (doc._1, temp.map(_._2), temp.map(_._1), topicWords.apply(doc._2.max._2).map(_._1))
+      val docResult = (doc._1, temp.map(_._2), temp.map(_._1), topicWords.apply(doc._2.max._2).map(_._1), iss2.apply(doc._2.max._2))
       docResult
     })
 
-    val datax = tesp2.toDF("id", "topic", "score", "word")
+    val datax = tesp2.toDF("id", "topic", "score", "word", "newword")
+    datax.show(false)
 
     val joinData = datax.join(tokenDF, Seq("id"))
 
