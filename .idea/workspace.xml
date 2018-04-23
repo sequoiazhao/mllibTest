@@ -1,246 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4ce51da-a614-4d9a-9923-4fdba0f25c7f" name="Default" comment="mllibLDAV1.152 基于pipeline进行LDA主题训练，很大程度上优化了代码，引入hivemall和deeplearning4j">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/metastore_db/log/log3.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/old/cvModel/data/_metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/9a9train.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/a9a.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/a9a.train" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/libsvm_data2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/news20.train" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/BigDL/TestFirst.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/GraphX/TestBook.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/Scaler.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/new.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/TestGBT1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/TestPipleGBT.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Token/TestOnlineCase.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/MLTest/ttt.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/Pipeline/test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SVMWithSGD/MultiNet.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SVMWithSGD/TestSVMWithSGD.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchJson/onlinejson.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchJson/resultByExplain.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchJson/test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/CaseClasses.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/ChangeDataToLocal.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/ChnChangeDataToLocal.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/ChnTestMLlibLocal.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/HttpBackTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/LtrGetResult.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/LtrGetResultNoModel.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/NingWSClientTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/Test.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/TestMLlibLocal.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/TestMLlibOnline.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchLtr/TestRanklib.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchResult/FilterTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchResult/SearchGetinterface.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchResult/TestPinYin.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/SearchResult/getSample.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/examples/mllib/AbstractParams.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/examples/mllib/LambdaMARTRunner.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/examples/mllib/Predictor.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/dataSet/dataSet.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/tree/DerivativeCalculator.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/tree/LambdaMART.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/tree/LambdaMARTDecisionTree.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/tree/config/Algo.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/tree/config/BoostingStrategy.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/tree/config/Strategy.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/tree/configuration/algo.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/tree/impl/FeatureStatsAggregator.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/util/ProbabilityFunctions.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/util/TreeUtils.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/ZLambdaMART/mllib/util/treeAggregatorFormat.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/deeplearning4j/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/deeplearning4j/TestFirst.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/hivemall/TestMall.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/net/testNEt/Test.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/search/Test.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/search/TestESearch.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_common_common_image_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_common_common_io_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_common_common_lang_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_bmp_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_core_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_jpeg_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_metadata_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_psd_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_tiff_3_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_10_2_3_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_ericaro_neoitertools_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_1_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_artoolkitplus_2_3_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_3_2_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flandmark_1_07_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flycapture_2_9_3_43_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_hdf5_1_10_0_patch1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_hdf5_linux_ppc64le_1_10_0_patch1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_hdf5_linux_x86_1_10_0_patch1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_hdf5_linux_x86_64_1_10_0_patch1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_hdf5_macosx_x86_64_1_10_0_patch1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_hdf5_platform_1_10_0_patch1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_hdf5_windows_x86_1_10_0_patch1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_hdf5_windows_x86_64_1_10_0_patch1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_android_arm_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_android_x86_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_linux_armhf_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_linux_ppc64le_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_linux_x86_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_linux_x86_64_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_macosx_x86_64_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_platform_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_windows_x86_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_leptonica_windows_x86_64_1_73_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libdc1394_2_2_4_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect2_0_2_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect_0_5_3_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_librealsense_1_9_6_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_arm_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_x86_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_armhf_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_ppc64le_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_x86_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_x86_64_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_macosx_x86_64_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_platform_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_64_3_1_0_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_videoinput_0_200_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_datavec_datavec_api_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_datavec_datavec_data_image_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_datavec_datavec_nd4j_common_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_datavec_datavec_spark_2_10_0_8_0_spark_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_core_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_modelimport_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_nn_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_ui_components_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_deeplearning4j_dl4j_spark_2_10_0_8_0_spark_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_nd4j_jackson_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_nd4j_nd4j_api_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_nd4j_nd4j_buffer_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_nd4j_nd4j_common_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_nd4j_nd4j_context_0_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_2_10_0_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_10_0_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hivemall.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/metastore_db/log/log2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/cvModel/data/.part-r-00000-db6c5346-b73c-496c-9239-ab72864e453b.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/cvModel/data/part-r-00000-db6c5346-b73c-496c-9239-ab72864e453b.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/ldaModel/model/data/.part-r-00000-984e8ed3-bd42-48e1-b381-88317b01a1b2.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/ldaModel/model/data/part-r-00000-984e8ed3-bd42-48e1-b381-88317b01a1b2.gz.parquet" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/com/Pipeline/TestTemp.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/TestTemp$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/TestTemp$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/TestTemp$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/TestTemp$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/TestTemp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$main$1$$anonfun$apply$2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/db.lck" afterPath="$PROJECT_DIR$/metastore_db/db.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/log.ctrl" afterPath="$PROJECT_DIR$/metastore_db/log/log.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cvModel/data/._metadata.crc" afterPath="$PROJECT_DIR$/model/cvModel/data/._metadata.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cvModel/data/_metadata" afterPath="$PROJECT_DIR$/model/cvModel/data/_metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cvModel/metadata/.part-00000.crc" afterPath="$PROJECT_DIR$/model/cvModel/metadata/.part-00000.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/ldaModel/model/data/._metadata.crc" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/._metadata.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/ldaModel/model/data/_metadata" afterPath="$PROJECT_DIR$/model/ldaModel/model/data/_metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/ldaModel/model/metadata/.part-00000.crc" afterPath="$PROJECT_DIR$/model/ldaModel/model/metadata/.part-00000.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/cvModel/data/._metadata.crc" afterPath="$PROJECT_DIR$/model/old/cvModel/data/._metadata.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/cvModel/metadata/.part-00000.crc" afterPath="$PROJECT_DIR$/model/old/cvModel/metadata/.part-00000.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/ldaModel/model/data/._metadata.crc" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/._metadata.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/ldaModel/model/data/_metadata" afterPath="$PROJECT_DIR$/model/old/ldaModel/model/data/_metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestMain$.class" afterPath="$PROJECT_DIR$/target/classes/TestMain$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TestMain.class" afterPath="$PROJECT_DIR$/target/classes/TestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$3.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$4.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$5.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$6.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$7.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$8.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$9.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$.class" afterPath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator2$1.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator3$1.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator4$1.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator5$1.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/RFormulaTest$$typecreator1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/RFormulaTest$$typecreator1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/RFormulaTest$.class" afterPath="$PROJECT_DIR$/target/classes/com/MLTest/RFormulaTest$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/RandomForest$.class" afterPath="$PROJECT_DIR$/target/classes/com/Pipeline/RandomForest$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$typecreator4$1.class" afterPath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$typecreator4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$.class" afterPath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hivemall/test1$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/hivemall/test1$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hivemall/test1$.class" afterPath="$PROJECT_DIR$/target/classes/com/hivemall/test1$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$typecreator1$1.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$typecreator1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/other/TestALS$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/other/TestALS$$anonfun$1.class" />
+    <list default="true" id="f4ce51da-a614-4d9a-9923-4fdba0f25c7f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TestMain$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$$anonfun$main$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/GraphX/TestGraphx.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/ChiSqSelectorTest$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/ChiSqSelectorTest$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/ChiSqSelectorTest$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/ChiSqSelectorTest$Bean$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/ChiSqSelectorTest$Bean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/ChiSqSelectorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestArrayRepeatUDF$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestArrayRepeatUDF$$anonfun$2$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestArrayRepeatUDF$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestArrayRepeatUDF$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestArrayRepeatUDF$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestArrayRepeatUDF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$$anonfun$1$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$$anonfun$1$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$$typecreator3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestFilterLongWord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$$typecreator5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestNormalizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestVector2Array$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestVector2Array$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestVector2Array$$anonfun$3$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestVector2Array$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestVector2Array$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestVector2Array$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestVector2Array$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/TestVector2Array.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$anonfun$funCompute$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$anonfun$funCompute$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$anonfun$funCompute2$1$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$anonfun$funCompute2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$typecreator3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$typecreator4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$typecreator5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$typecreator6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$typecreator7$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$$typecreator8$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Normalizer/testSimCo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/PCATest$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/PCATest$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/PCATest$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/PCATest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/RFormulaTest$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/RFormulaTest$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/RFormulaTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Token/Tokenizer$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Token/Tokenizer$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Token/Tokenizer$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Token/Tokenizer$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/Token/Tokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/VectorAssembler$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/VectorAssembler$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/VectorAssembler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/VectorSlicer$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/VectorSlicer$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/MLTest/VectorSlicer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/LDAml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/RandomForest$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/RandomForest$$anonfun$2$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/RandomForest$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/RandomForest$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/RandomForest$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/RandomForest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$7$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8$$anonfun$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$anonfun$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$typecreator3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$$typecreator4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/Pipeline/VectorTFIDFPipeline.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/hivemall/test1$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/hivemall/test1$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/hivemall/test1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDF$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDF$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDF$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDF$DocumentFrequencyAggregator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDFModel$$anonfun$transform$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDFModel$$anonfun$transform$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDFModel$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/IDFModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$3$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$3$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$3$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$7$$anonfun$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$main$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$typecreator3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$typecreator4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$$typecreator5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$anonfun$main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDATrain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$getSortedDocTopics$1$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$getSortedDocTopics$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$getSortedDocTopics$2$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$getSortedDocTopics$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$getTopicWords$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$getTopicWords$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$predict$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$setAlgorithm$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$setCheckpointInterval$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$setK$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils$$anonfun$setMaxIterations$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAandWord2Vec$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAandWord2Vec$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/LDAandWord2Vec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/PreUtils$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/PreUtils$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/PreUtils$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/PreUtils$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/PreUtils$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/PreUtils$$anonfun$wordSegment$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/PreUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestTFIDF$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestTFIDF$$anonfun$main$2$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestTFIDF$$anonfun$main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestTFIDF$$anonfun$main$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestTFIDF$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestTFIDF$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestTFIDF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestWord2Vec$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestWord2Vec$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestWord2Vec$$anonfun$main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestWord2Vec$$anonfun$main$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestWord2Vec$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestWord2Vec$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestWord2Vec$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/TestWord2Vec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$7$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$8$$anonfun$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$8$$anonfun$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$8$$anonfun$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$8$$anonfun$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/VectorTFIDF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$setMinDocFreq$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer$$anonfun$setVocabSize$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/Vectorizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/splitWord$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/splitWord$$anonfun$2$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/splitWord$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/splitWord$$typecreator1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/splitWord$$typecreator2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/splitWord$$typecreator3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mllibLDA/splitWord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/BreezePlot$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/BreezePlot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/CollaborativeFiltering.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3$$anonfun$main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/LinearRegression3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/MllibTest1$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/MllibTest1$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/MllibTest1$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/MllibTest1$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/MllibTest1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/MllibTest2$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/MllibTest2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/MyUDAF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/SGD$$anonfun$getData$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/SGD$$anonfun$getData$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/SGD$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/SGD$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/SGD.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestALS$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestALS$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestALS$$anonfun$main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestALS$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestALS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestScala$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestScala$$anonfun$main$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestScala$$anonfun$main$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestScala$$anonfun$main$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestScala$$anonfun$sum$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestScala$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestScala.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestUDF$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/other/TestUDF.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mllibtest.iml" afterPath="$PROJECT_DIR$/mllibtest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/IDF" afterPath="$PROJECT_DIR$/model/IDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/cvModel/metadata/part-00000" afterPath="$PROJECT_DIR$/model/cvModel/metadata/part-00000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/ldaModel/model/metadata/part-00000" afterPath="$PROJECT_DIR$/model/ldaModel/model/metadata/part-00000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/old/cvModel/metadata/part-00000" afterPath="$PROJECT_DIR$/model/old/cvModel/metadata/part-00000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/TestMain.scala" afterPath="$PROJECT_DIR$/src/main/TestMain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala" afterPath="$PROJECT_DIR$/src/main/com/GraphX/TestGraphx.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestNormalizer.scala" afterPath="$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestNormalizer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/MLTest/RFormulaTest.scala" afterPath="$PROJECT_DIR$/src/main/com/MLTest/RFormulaTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala" afterPath="$PROJECT_DIR$/src/main/com/Pipeline/VectorTFIDFPipeline.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/hivemall/test1.scala" afterPath="$PROJECT_DIR$/src/main/com/hivemall/test1.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/LDATrain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDF.scala" afterPath="$PROJECT_DIR$/src/main/com/mllibLDA/VectorTFIDF.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spark-defaults.conf" afterPath="$PROJECT_DIR$/target/classes/spark-defaults.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -280,7 +315,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="1540">
               <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
               <folding />
             </state>
@@ -291,7 +326,27 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="id_rsa.pub" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/id_rsa.pub">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="id_rsa" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/id_rsa">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -300,7 +355,7 @@
       <file leaf-file-name="getSample.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/SearchResult/getSample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="2068">
               <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding>
                 <element signature="e#26#58#0" expanded="true" />
@@ -312,7 +367,7 @@
       <file leaf-file-name="FilterTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/SearchResult/FilterTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="748">
               <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
               <folding>
                 <element signature="e#26#58#0" expanded="true" />
@@ -507,6 +562,12 @@
             </path>
             <path>
               <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mllibtest" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="mllibtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mllibtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -539,14 +600,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/bigdata/hivemall" />
@@ -793,6 +854,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f4ce51da-a614-4d9a-9923-4fdba0f25c7f" name="Default" comment="" />
@@ -901,7 +965,8 @@
       <workItem from="1523508331753" duration="26083000" />
       <workItem from="1523926230143" duration="53378000" />
       <workItem from="1524447033124" duration="5278000" />
-      <workItem from="1524453586923" duration="12169000" />
+      <workItem from="1524453586923" duration="13717000" />
+      <workItem from="1524471144154" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="新增词向量内容">
       <created>1512569961009</created>
@@ -1001,7 +1066,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517129540008</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="mllib_SearchLTR 20180423">
+      <created>1524469679621</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1524469679621</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1010,22 +1082,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="638100000" />
+    <option name="totallyTimeSpent" value="639672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29922992" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3128371" sideWeight="0.20628998" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32343236" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23827292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44680852" sideWeight="0.78920496" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4389439" sideWeight="0.79371" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1035,13 +1106,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25587606" sideWeight="0.5041494" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25587606" sideWeight="0.5041494" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32343236" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29922992" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1099,7 +1172,8 @@
     <MESSAGE value="mllibLDAV1.14  基于pipeline进行LDA主题训练，很大程度上优化了代码，引入hivemall和deeplearning4j" />
     <MESSAGE value="mllibLDAV1.15 基于pipeline进行LDA主题训练，很大程度上优化了代码，引入hivemall和deeplearning4j" />
     <MESSAGE value="mllibLDAV1.152 基于pipeline进行LDA主题训练，很大程度上优化了代码，引入hivemall和deeplearning4j" />
-    <option name="LAST_COMMIT_MESSAGE" value="mllibLDAV1.152 基于pipeline进行LDA主题训练，很大程度上优化了代码，引入hivemall和deeplearning4j" />
+    <MESSAGE value="mllib_SearchLTR 20180423" />
+    <option name="LAST_COMMIT_MESSAGE" value="mllib_SearchLTR 20180423" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1108,20 +1182,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/Normalizer/TestNormalizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/MLTest/ttt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/other/TestALS.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1362,7 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1370,7 +1429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3242">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,7 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,7 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,7 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,7 +1504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,7 +1533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/SearchResult/getSample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="2068">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
             <element signature="e#26#58#0" expanded="true" />
@@ -1490,7 +1543,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/SearchResult/FilterTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="748">
           <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
           <folding>
             <element signature="e#26#58#0" expanded="true" />
@@ -1500,8 +1553,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="1540">
           <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_rsa.pub">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_rsa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1509,7 +1578,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
