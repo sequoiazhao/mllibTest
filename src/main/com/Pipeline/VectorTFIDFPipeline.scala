@@ -262,7 +262,7 @@ object VectorTFIDFPipeline {
       val temp = doc._2
 
       // val docResult = (doc._1, temp.map(_._2), temp.map(_._1), topicWords.apply(doc._2.max._2).map(_._1))
-      val docResult = (doc._1, temp.map(_._2), temp.map(_._1), topicWords.apply(doc._2.max._2).map(_._1), iss2.apply(doc._2.max._2))
+      val docResult = (doc._1, temp.map(_._2), temp.map(_._1), topicWords.apply(doc._2.max._2).map(_._1), iss2.apply(doc._2.max._2).distinct)
       docResult
     })
 

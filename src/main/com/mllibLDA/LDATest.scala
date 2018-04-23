@@ -136,7 +136,7 @@ object LDATest {
 
     println("主题-词：")
     println(topicWords.length)
-    topicWords.take(15).zipWithIndex.foreach(topic => {
+    topicWords.take(35).zipWithIndex.foreach(topic => {
       println("Topic: " + topic._2)
       topic._1.foreach(word => {
         println(word._1 + "\t" + word._2)

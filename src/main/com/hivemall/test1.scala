@@ -1,18 +1,18 @@
 package com.hivemall
 
 import com.mllibLDA.{PreUtils, Vectorizer}
+import com.sun.org.apache.bcel.internal.generic.ArrayType
 import org.apache.hadoop.fs.Path
 import org.apache.log4j.{Level, Logger}
+import org.apache.spark.ml.feature.HmLabeledPoint
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.sql.functions.monotonically_increasing_id
 import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.sql.hive.HivemallOps._
 import org.apache.spark.sql.hive.HivemallUtils._
-
-
-
 import org.apache.spark.sql.functions._
+
 
 
 /**
@@ -77,16 +77,16 @@ object test1 {
 
     import org.apache.spark.mllib.util.MLUtils
 
-   // val trainRDD = MLUtils.loadLibSVMFile(sc, "d:/code_test/mllibtest/data/a9a.t")
+    // val trainRDD = MLUtils.loadLibSVMFile(sc, "d:/code_test/mllibtest/data/a9a.t")
     //trainRDD
     //val sqlContext = SQLContext.getOrCreate(sc)
 
-val tf = sqlhiveContext.read.format("libsvm").load("d:/code_test/mllibtest/data/a9a.t")
-//    import sqlhiveContext.implicits._
+    val tf = sqlhiveContext.read.format("libsvm").load("d:/code_test/mllibtest/data/a9a.t")
+    //    import sqlhiveContext.implicits._
     //    val tf = trainRDD.toDF()
     //    tf.show()
 
-tf.show()
+    tf.show()
     //    val (max, min) = tf.select(max($"label"), min($"label")).collect.map {
     //      case Row(max: Double, min: Double) => (max, min)
     //    }
@@ -102,26 +102,35 @@ tf.show()
     //      $"features"
     //    )
 
-   val test =  tf.select(
+    val trainDf = tf.select(
       rescale("label", lit(x1.apply(0)._2), lit(x1.apply(0)._1)).as("label"),
       "features"
     )
 
-//    val test =  tf.select(rowid(),
-//      rescale("label", lit(x1.apply(0)._2), lit(x1.apply(0)._1)).as("label"),
-//      "features"
-//    )
+    //    val test =  tf.select(rowid(),
+    //      rescale("label", lit(x1.apply(0)._2), lit(x1.apply(0)._1)).as("label"),
+    //      "features"
+    //    )
 
-    test.printSchema()
+    trainDf.printSchema()
+    // test.show()
 
-
-    val testDf = sqlhiveContext.read.format("libsvm").load("a9a.t")
+    val testDf = sqlhiveContext.read.format("libsvm").load("d:/code_test/mllibtest/data/a9a.t")
       .select(rowid(), rescale("label", lit(x1.apply(0)._2), lit(x1.apply(0)._1)).as("label"), "features")
-      .explode_array("features")
       .select("rowid", "label".as("target"), "feature", "weight".as("value"))
       .cache
 
     testDf.printSchema()
+
+//    val modelDf = trainDf
+//      .train_logregr(append_bias($"features"), $"label")
+//      .groupBy("feature").avg("weight")
+//      .toDF("feature", "weight")
+//      .cache
+
+
+
+
 
   }
 

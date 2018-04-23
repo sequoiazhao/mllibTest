@@ -12,6 +12,7 @@ import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.hive.HiveContext
 
 
+
 object TestGraphx {
   def main(args: Array[String]): Unit = {
     //增加此条目确保HiveContext可以用，如果没有会有一个tmp报错信息，一直没有解决

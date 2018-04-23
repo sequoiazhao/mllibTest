@@ -1,0 +1,1616 @@
+HttpResponse({
+  "took": 28,
+  "timed_out": false,
+  "_shards": {
+    "total": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 414993,
+    "max_score": 10.189947,
+    "hits": [
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013984675",
+        "_score": 10.189947,
+        "_source": {
+          "objname": "茶啊二中 第4季",
+          "objid": 11013984675,
+          "search_hotness": 9.705632,
+          "play_hotness": 12.098019,
+          "obj_hot_score": 10.189947
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013944984",
+        "_score": 9.8770895,
+        "_source": {
+          "objname": "南极之恋",
+          "objid": 11013944984,
+          "search_hotness": 7.3750396,
+          "play_hotness": 12.556637,
+          "obj_hot_score": 9.8770895
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013971506",
+        "_score": 9.741185,
+        "_source": {
+          "objname": "我的世界真人版",
+          "objid": 11013971506,
+          "search_hotness": 10.094078,
+          "play_hotness": 15.002249,
+          "obj_hot_score": 9.741185
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013869427",
+        "_score": 9.405402,
+        "_source": {
+          "objname": "勇敢者游戏：决战丛林",
+          "objid": 11013869427,
+          "search_hotness": 7.7210994,
+          "play_hotness": 11.937087,
+          "obj_hot_score": 9.405402
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012864590",
+        "_score": 9.009732,
+        "_source": {
+          "objname": "战狼2",
+          "objid": 11012864590,
+          "search_hotness": 10.226412,
+          "play_hotness": 12.1353655,
+          "obj_hot_score": 9.009732
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014013721",
+        "_score": 9.006119,
+        "_source": {
+          "objname": "侦察兵",
+          "objid": 11014013721,
+          "search_hotness": 6.044394,
+          "play_hotness": 8.602269,
+          "obj_hot_score": 9.006119
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013808041",
+        "_score": 8.678415,
+        "_source": {
+          "objname": "甄嬛传",
+          "objid": 11013808041,
+          "search_hotness": 9.169925,
+          "play_hotness": 10.752257,
+          "obj_hot_score": 8.678415
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013994278",
+        "_score": 8.501279,
+        "_source": {
+          "objname": "画皮之阴阳法王",
+          "objid": 11013994278,
+          "search_hotness": 5.2854023,
+          "play_hotness": 8.288791,
+          "obj_hot_score": 8.501279
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013971726",
+        "_score": 8.439605,
+        "_source": {
+          "objname": "冰川时代5：星际碰撞 （HDR）",
+          "objid": 11013971726,
+          "search_hotness": 5.7813597,
+          "play_hotness": 7.589609,
+          "obj_hot_score": 8.439605
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "359584",
+        "_score": 8.431984,
+        "_source": {
+          "objname": "名侦探柯南",
+          "objid": 359584,
+          "search_hotness": 9.030667,
+          "play_hotness": 13.193706,
+          "obj_hot_score": 8.431984
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "357660",
+        "_score": 8.404663,
+        "_source": {
+          "objname": "名侦探柯南 普通话",
+          "objid": 357660,
+          "search_hotness": 9.276124,
+          "play_hotness": 13.608436,
+          "obj_hot_score": 8.404663
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013933444",
+        "_score": 8.376326,
+        "_source": {
+          "objname": "大头儿子和小头爸爸",
+          "objid": 11013933444,
+          "search_hotness": 9.317412,
+          "play_hotness": 9.943075,
+          "obj_hot_score": 8.376326
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013869428",
+        "_score": 8.363414,
+        "_source": {
+          "objname": "勇敢者游戏：决战丛林（普通话）",
+          "objid": 11013869428,
+          "search_hotness": 5.3923173,
+          "play_hotness": 11.062665,
+          "obj_hot_score": 8.363414
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013945267",
+        "_score": 8.352518,
+        "_source": {
+          "objname": "寻觅之境",
+          "objid": 11013945267,
+          "search_hotness": 5.3923173,
+          "play_hotness": 9.061592,
+          "obj_hot_score": 8.352518
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014016399",
+        "_score": 8.335898,
+        "_source": {
+          "objname": "熊出没之丛林总动员",
+          "objid": 11014016399,
+          "search_hotness": 9.113742,
+          "play_hotness": 12.020852,
+          "obj_hot_score": 8.335898
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013994276",
+        "_score": 8.209813,
+        "_source": {
+          "objname": "超能陆战队",
+          "objid": 11013994276,
+          "search_hotness": 4.3923173,
+          "play_hotness": 8.378478,
+          "obj_hot_score": 8.209813
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013893890",
+        "_score": 8.20955,
+        "_source": {
+          "objname": "绝地求生刺激战场",
+          "objid": 11013893890,
+          "search_hotness": 8.823367,
+          "play_hotness": 11.345068,
+          "obj_hot_score": 8.20955
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012132415",
+        "_score": 8.15325,
+        "_source": {
+          "objname": "战狼2",
+          "objid": 11012132415,
+          "search_hotness": 8.426265,
+          "play_hotness": 11.439784,
+          "obj_hot_score": 8.15325
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013885696",
+        "_score": 8.101762,
+        "_source": {
+          "objname": "熊出没之壮志熊心",
+          "objid": 11013885696,
+          "search_hotness": 9.027906,
+          "play_hotness": 10.584192,
+          "obj_hot_score": 8.101762
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014013720",
+        "_score": 8.077549,
+        "_source": {
+          "objname": "智取威虎山",
+          "objid": 11014013720,
+          "search_hotness": 4.169925,
+          "play_hotness": 7.405204,
+          "obj_hot_score": 8.077549
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013973516",
+        "_score": 8.019617,
+        "_source": {
+          "objname": "球球大作战冰糖",
+          "objid": 11013973516,
+          "search_hotness": 7.3037806,
+          "play_hotness": 11.223066,
+          "obj_hot_score": 8.019617
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013994297",
+        "_score": 7.9877276,
+        "_source": {
+          "objname": "武林志",
+          "objid": 11013994297,
+          "search_hotness": 4.5849624,
+          "play_hotness": 6.7932644,
+          "obj_hot_score": 7.9877276
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013973556",
+        "_score": 7.9676914,
+        "_source": {
+          "objname": "奇门诡秘之深渊之门",
+          "objid": 11013973556,
+          "search_hotness": 3.4594316,
+          "play_hotness": 10.757015,
+          "obj_hot_score": 7.9676914
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013974818",
+        "_score": 7.9473825,
+        "_source": {
+          "objname": "世界机器人大战",
+          "objid": 11013974818,
+          "search_hotness": 4.169925,
+          "play_hotness": 8.633873,
+          "obj_hot_score": 7.9473825
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013131746",
+        "_score": 7.939441,
+        "_source": {
+          "objname": "风筝",
+          "objid": 11013131746,
+          "search_hotness": 8.361944,
+          "play_hotness": 12.064195,
+          "obj_hot_score": 7.939441
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013825075",
+        "_score": 7.886892,
+        "_source": {
+          "objname": "奥特曼战队",
+          "objid": 11013825075,
+          "search_hotness": 8.98014,
+          "play_hotness": 11.067286,
+          "obj_hot_score": 7.886892
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013817335",
+        "_score": 7.874333,
+        "_source": {
+          "objname": "我是大侦探",
+          "objid": 11013817335,
+          "search_hotness": 9.459432,
+          "play_hotness": 11.279079,
+          "obj_hot_score": 7.874333
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013956646",
+        "_score": 7.8346376,
+        "_source": {
+          "objname": "名侦探俱乐部 第2季",
+          "objid": 11013956646,
+          "search_hotness": 4.857981,
+          "play_hotness": 9.432564,
+          "obj_hot_score": 7.8346376
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013313259",
+        "_score": 7.767887,
+        "_source": {
+          "objname": "名侦探柯南 普通话版",
+          "objid": 11013313259,
+          "search_hotness": 7.507795,
+          "play_hotness": 12.477738,
+          "obj_hot_score": 7.767887
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013952792",
+        "_score": 7.766964,
+        "_source": {
+          "objname": "植物大战僵尸 ",
+          "objid": 11013952792,
+          "search_hotness": 7.665336,
+          "play_hotness": 9.418382,
+          "obj_hot_score": 7.766964
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012723440",
+        "_score": 7.7651286,
+        "_source": {
+          "objname": "三国机密之潜龙在渊",
+          "objid": 11012723440,
+          "search_hotness": 7.426265,
+          "play_hotness": 13.902247,
+          "obj_hot_score": 7.7651286
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013984980",
+        "_score": 7.7439103,
+        "_source": {
+          "objname": "垂帘听政",
+          "objid": 11013984980,
+          "search_hotness": 4.5849624,
+          "play_hotness": 5.334842,
+          "obj_hot_score": 7.7439103
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013573152",
+        "_score": 7.710017,
+        "_source": {
+          "objname": "失宠王妃之结缘",
+          "objid": 11013573152,
+          "search_hotness": 8.027906,
+          "play_hotness": 13.374519,
+          "obj_hot_score": 7.710017
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014014081",
+        "_score": 7.6985145,
+        "_source": {
+          "objname": "跳跃战士",
+          "objid": 11014014081,
+          "search_hotness": 7.044394,
+          "play_hotness": 13.357922,
+          "obj_hot_score": 7.6985145
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013139326",
+        "_score": 7.6933794,
+        "_source": {
+          "objname": "琅琊榜之风起长林",
+          "objid": 11013139326,
+          "search_hotness": 8.087462,
+          "play_hotness": 11.996323,
+          "obj_hot_score": 7.6933794
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013973861",
+        "_score": 7.6752753,
+        "_source": {
+          "objname": "赌神3之少年赌神",
+          "objid": 11013973861,
+          "search_hotness": 6.321928,
+          "play_hotness": 10.764555,
+          "obj_hot_score": 7.6752753
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013993983",
+        "_score": 7.673019,
+        "_source": {
+          "objname": "瞧这一家子",
+          "objid": 11013993983,
+          "search_hotness": 3.9068906,
+          "play_hotness": 6.0641108,
+          "obj_hot_score": 7.673019
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013818432",
+        "_score": 7.661829,
+        "_source": {
+          "objname": "名侦探柯南：唐红的恋歌",
+          "objid": 11013818432,
+          "search_hotness": 6.539159,
+          "play_hotness": 9.173839,
+          "obj_hot_score": 7.661829
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "2146724",
+        "_score": 7.65187,
+        "_source": {
+          "objname": "最好的我们",
+          "objid": 2146724,
+          "search_hotness": 7.8703647,
+          "play_hotness": 11.29543,
+          "obj_hot_score": 7.65187
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11011932232",
+        "_score": 7.6421633,
+        "_source": {
+          "objname": "熊出没之夺宝熊兵",
+          "objid": 11011932232,
+          "search_hotness": 7.9248123,
+          "play_hotness": 10.592855,
+          "obj_hot_score": 7.6421633
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013952793",
+        "_score": 7.638804,
+        "_source": {
+          "objname": "宝宝巴士儿童益智儿歌",
+          "objid": 11013952793,
+          "search_hotness": 7.0768156,
+          "play_hotness": 10.237187,
+          "obj_hot_score": 7.638804
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014024279",
+        "_score": 7.6126003,
+        "_source": {
+          "objname": "剑仙直播王者荣耀",
+          "objid": 11014024279,
+          "search_hotness": 6.2667866,
+          "play_hotness": 10.186943,
+          "obj_hot_score": 7.6126003
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013973858",
+        "_score": 7.601447,
+        "_source": {
+          "objname": "九品芝麻官",
+          "objid": 11013973858,
+          "search_hotness": 6.149747,
+          "play_hotness": 9.997156,
+          "obj_hot_score": 7.601447
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012889520",
+        "_score": 7.563281,
+        "_source": {
+          "objname": "战狼",
+          "objid": 11012889520,
+          "search_hotness": 8.108524,
+          "play_hotness": 8.905026,
+          "obj_hot_score": 7.563281
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013943039",
+        "_score": 7.5551286,
+        "_source": {
+          "objname": "奥特曼正义降临",
+          "objid": 11013943039,
+          "search_hotness": 7.409391,
+          "play_hotness": 9.68987,
+          "obj_hot_score": 7.5551286
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013805943",
+        "_score": 7.4862204,
+        "_source": {
+          "objname": "大丈夫",
+          "objid": 11013805943,
+          "search_hotness": 5.321928,
+          "play_hotness": 8.10373,
+          "obj_hot_score": 7.4862204
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013274771",
+        "_score": 7.4827156,
+        "_source": {
+          "objname": "大话西游之月光宝盒",
+          "objid": 11013274771,
+          "search_hotness": 7.149747,
+          "play_hotness": 9.81321,
+          "obj_hot_score": 7.4827156
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012142101",
+        "_score": 7.4589334,
+        "_source": {
+          "objname": "那年花开月正圆",
+          "objid": 11012142101,
+          "search_hotness": 7.5849624,
+          "play_hotness": 11.047072,
+          "obj_hot_score": 7.4589334
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013327091",
+        "_score": 7.456236,
+        "_source": {
+          "objname": "最强大脑之燃烧吧大脑",
+          "objid": 11013327091,
+          "search_hotness": 10.484823,
+          "play_hotness": 13.314879,
+          "obj_hot_score": 7.456236
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013885715",
+        "_score": 7.4408536,
+        "_source": {
+          "objname": "【小白】我的世界智能挑战",
+          "objid": 11013885715,
+          "search_hotness": 7.2384048,
+          "play_hotness": 11.03687,
+          "obj_hot_score": 7.4408536
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013858166",
+        "_score": 7.4252787,
+        "_source": {
+          "objname": "这！就是舞者 第一季",
+          "objid": 11013858166,
+          "search_hotness": 4.4594316,
+          "play_hotness": 6.3323913,
+          "obj_hot_score": 7.4252787
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013933097",
+        "_score": 7.3981094,
+        "_source": {
+          "objname": "擦枪走火",
+          "objid": 11013933097,
+          "search_hotness": 6.2479277,
+          "play_hotness": 11.529875,
+          "obj_hot_score": 7.3981094
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012493021",
+        "_score": 7.396599,
+        "_source": {
+          "objname": "新大头儿子和小头爸爸 第4季",
+          "objid": 11012493021,
+          "search_hotness": 7.539159,
+          "play_hotness": 12.530692,
+          "obj_hot_score": 7.396599
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013777886",
+        "_score": 7.3678446,
+        "_source": {
+          "objname": "至暗时刻",
+          "objid": 11013777886,
+          "search_hotness": 4.523562,
+          "play_hotness": 8.61547,
+          "obj_hot_score": 7.3678446
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014003271",
+        "_score": 7.3541565,
+        "_source": {
+          "objname": "宝宝巴士之奇奇妙妙的恐龙乐园",
+          "objid": 11014003271,
+          "search_hotness": 6.554589,
+          "play_hotness": 8.720594,
+          "obj_hot_score": 7.3541565
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "110221",
+        "_score": 7.327519,
+        "_source": {
+          "objname": "蜘蛛侠",
+          "objid": 110221,
+          "search_hotness": 7.6724253,
+          "play_hotness": 8.939998,
+          "obj_hot_score": 7.327519
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012205946",
+        "_score": 7.30253,
+        "_source": {
+          "objname": "大话西游之大圣娶亲",
+          "objid": 11012205946,
+          "search_hotness": 6.794416,
+          "play_hotness": 9.233422,
+          "obj_hot_score": 7.30253
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013621748",
+        "_score": 7.2924724,
+        "_source": {
+          "objname": "济公之英雄归位",
+          "objid": 11013621748,
+          "search_hotness": 5.97728,
+          "play_hotness": 10.519211,
+          "obj_hot_score": 7.2924724
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013893961",
+        "_score": 7.288994,
+        "_source": {
+          "objname": "王者时刻",
+          "objid": 11013893961,
+          "search_hotness": 7.1898246,
+          "play_hotness": 9.570032,
+          "obj_hot_score": 7.288994
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013390416",
+        "_score": 7.2860303,
+        "_source": {
+          "objname": "画江湖之侠岚",
+          "objid": 11013390416,
+          "search_hotness": 7.312883,
+          "play_hotness": 12.254589,
+          "obj_hot_score": 7.2860303
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014003154",
+        "_score": 7.2827773,
+        "_source": {
+          "objname": "【小宅】方舟：方块世界",
+          "objid": 11014003154,
+          "search_hotness": 5.97728,
+          "play_hotness": 9.367956,
+          "obj_hot_score": 7.2827773
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "87616",
+        "_score": 7.2521496,
+        "_source": {
+          "objname": "熊出没之环球大冒险",
+          "objid": 87616,
+          "search_hotness": 7.4429436,
+          "play_hotness": 12.067759,
+          "obj_hot_score": 7.2521496
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013973746",
+        "_score": 7.2429914,
+        "_source": {
+          "objname": "【我的世界起床战争】",
+          "objid": 11013973746,
+          "search_hotness": 6.4594316,
+          "play_hotness": 8.722873,
+          "obj_hot_score": 7.2429914
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "3795071",
+        "_score": 7.2385287,
+        "_source": {
+          "objname": "中国诗词大会",
+          "objid": 3795071,
+          "search_hotness": 10.522581,
+          "play_hotness": 11.399738,
+          "obj_hot_score": 7.2385287
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012373543",
+        "_score": 7.235122,
+        "_source": {
+          "objname": "爆笑虫子合集",
+          "objid": 11012373543,
+          "search_hotness": 6.9425144,
+          "play_hotness": 12.845086,
+          "obj_hot_score": 7.235122
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "1834786",
+        "_score": 7.218893,
+        "_source": {
+          "objname": "超能陆战队",
+          "objid": 1834786,
+          "search_hotness": 6.321928,
+          "play_hotness": 11.03225,
+          "obj_hot_score": 7.218893
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013952907",
+        "_score": 7.2071614,
+        "_source": {
+          "objname": "植物大战僵尸第一部",
+          "objid": 11013952907,
+          "search_hotness": 6.554589,
+          "play_hotness": 9.025051,
+          "obj_hot_score": 7.2071614
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013815494",
+        "_score": 7.206523,
+        "_source": {
+          "objname": "熊出没之丛林王者",
+          "objid": 11013815494,
+          "search_hotness": 8.149747,
+          "play_hotness": 9.307472,
+          "obj_hot_score": 7.206523
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012731507",
+        "_score": 7.191692,
+        "_source": {
+          "objname": "大话西游之爱你一万年",
+          "objid": 11012731507,
+          "search_hotness": 7.7813597,
+          "play_hotness": 11.062381,
+          "obj_hot_score": 7.191692
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013985012",
+        "_score": 7.1818166,
+        "_source": {
+          "objname": "大侦探",
+          "objid": 11013985012,
+          "search_hotness": 3.5849626,
+          "play_hotness": 5.0435543,
+          "obj_hot_score": 7.1818166
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013798318",
+        "_score": 7.175006,
+        "_source": {
+          "objname": "愤怒的小鸟之猪猪传系列第四季",
+          "objid": 11013798318,
+          "search_hotness": 4.2479277,
+          "play_hotness": 12.563901,
+          "obj_hot_score": 7.175006
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013880278",
+        "_score": 7.1707134,
+        "_source": {
+          "objname": "猪猪侠之百变联盟",
+          "objid": 11013880278,
+          "search_hotness": 7.228819,
+          "play_hotness": 13.325656,
+          "obj_hot_score": 7.1707134
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "2165427",
+        "_score": 7.161681,
+        "_source": {
+          "objname": "超能陆战队（普通话）",
+          "objid": 2165427,
+          "search_hotness": 6.3750396,
+          "play_hotness": 10.677389,
+          "obj_hot_score": 7.161681
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013895035",
+        "_score": 7.159015,
+        "_source": {
+          "objname": "宝宝巴士站游戏",
+          "objid": 11013895035,
+          "search_hotness": 6.643856,
+          "play_hotness": 10.46136,
+          "obj_hot_score": 7.159015
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013274772",
+        "_score": 7.134508,
+        "_source": {
+          "objname": "大话西游之大圣娶亲",
+          "objid": 11013274772,
+          "search_hotness": 6.022368,
+          "play_hotness": 10.26922,
+          "obj_hot_score": 7.134508
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013866045",
+        "_score": 7.126589,
+        "_source": {
+          "objname": "赵本山小品集锦",
+          "objid": 11013866045,
+          "search_hotness": 6.33985,
+          "play_hotness": 10.958124,
+          "obj_hot_score": 7.126589
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014024406",
+        "_score": 7.119947,
+        "_source": {
+          "objname": "张大仙王者荣耀录播",
+          "objid": 11014024406,
+          "search_hotness": 5.643856,
+          "play_hotness": 9.094038,
+          "obj_hot_score": 7.119947
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012142532",
+        "_score": 7.113291,
+        "_source": {
+          "objname": "地道战",
+          "objid": 11012142532,
+          "search_hotness": 6.97728,
+          "play_hotness": 8.628222,
+          "obj_hot_score": 7.113291
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "1701613",
+        "_score": 7.097149,
+        "_source": {
+          "objname": "爱情保卫战",
+          "objid": 1701613,
+          "search_hotness": 9.719389,
+          "play_hotness": 13.300022,
+          "obj_hot_score": 7.097149
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "1252425",
+        "_score": 7.081333,
+        "_source": {
+          "objname": "新大头儿子和小头爸爸",
+          "objid": 1252425,
+          "search_hotness": 7.7347097,
+          "play_hotness": 10.248928,
+          "obj_hot_score": 7.081333
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013916683",
+        "_score": 7.0778327,
+        "_source": {
+          "objname": "王者荣耀最强操作",
+          "objid": 11013916683,
+          "search_hotness": 6.5999126,
+          "play_hotness": 9.132066,
+          "obj_hot_score": 7.0778327
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013993996",
+        "_score": 7.074898,
+        "_source": {
+          "objname": "智龙迷城",
+          "objid": 11013993996,
+          "search_hotness": 3.321928,
+          "play_hotness": 8.977989,
+          "obj_hot_score": 7.074898
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "932",
+        "_score": 7.06648,
+        "_source": {
+          "objname": "大宅门",
+          "objid": 932,
+          "search_hotness": 10.151016,
+          "play_hotness": 12.041878,
+          "obj_hot_score": 7.06648
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014033319",
+        "_score": 7.0655684,
+        "_source": {
+          "objname": "王者荣耀搞笑专辑。",
+          "objid": 11014033319,
+          "search_hotness": 5.97728,
+          "play_hotness": 7.1626763,
+          "obj_hot_score": 7.0655684
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013936098",
+        "_score": 7.0463505,
+        "_source": {
+          "objname": "寻觅之境",
+          "objid": 11013936098,
+          "search_hotness": 3.5849626,
+          "play_hotness": 7.677604,
+          "obj_hot_score": 7.0463505
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012576930",
+        "_score": 7.03821,
+        "_source": {
+          "objname": "中南海保镖",
+          "objid": 11012576930,
+          "search_hotness": 6.5849624,
+          "play_hotness": 9.653527,
+          "obj_hot_score": 7.03821
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013914998",
+        "_score": 7.0361147,
+        "_source": {
+          "objname": "植物大战僵尸萌物版",
+          "objid": 11013914998,
+          "search_hotness": 6.044394,
+          "play_hotness": 10.292359,
+          "obj_hot_score": 7.0361147
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013776966",
+        "_score": 7.0157385,
+        "_source": {
+          "objname": "名侦探柯南:唐红的恋歌",
+          "objid": 11013776966,
+          "search_hotness": 5.129283,
+          "play_hotness": 8.774056,
+          "obj_hot_score": 7.0157385
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "2070210",
+        "_score": 7.014508,
+        "_source": {
+          "objname": "复仇者联盟",
+          "objid": 2070210,
+          "search_hotness": 6.33985,
+          "play_hotness": 9.62252,
+          "obj_hot_score": 7.014508
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014006105",
+        "_score": 6.998603,
+        "_source": {
+          "objname": "陈较瘦：植物大战僵尸无敌游戏",
+          "objid": 11014006105,
+          "search_hotness": 5,
+          "play_hotness": 10.002087,
+          "obj_hot_score": 6.998603
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "1744811",
+        "_score": 6.9873,
+        "_source": {
+          "objname": "蜀山战纪第1季",
+          "objid": 1744811,
+          "search_hotness": 7.129283,
+          "play_hotness": 10.330651,
+          "obj_hot_score": 6.9873
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013987079",
+        "_score": 6.979709,
+        "_source": {
+          "objname": "梦想三国之永恒之神系列游戏",
+          "objid": 11013987079,
+          "search_hotness": 6,
+          "play_hotness": 8.233025,
+          "obj_hot_score": 6.979709
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "3889850",
+        "_score": 6.978612,
+        "_source": {
+          "objname": "大秦帝国之裂变",
+          "objid": 3889850,
+          "search_hotness": 6.5698557,
+          "play_hotness": 9.995685,
+          "obj_hot_score": 6.978612
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11012984982",
+        "_score": 6.974069,
+        "_source": {
+          "objname": "熊出没之探险日记",
+          "objid": 11012984982,
+          "search_hotness": 9.342074,
+          "play_hotness": 15.595957,
+          "obj_hot_score": 6.974069
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11011919202",
+        "_score": 6.973937,
+        "_source": {
+          "objname": "超能陆战队",
+          "objid": 11011919202,
+          "search_hotness": 5.7548876,
+          "play_hotness": 10.3387985,
+          "obj_hot_score": 6.973937
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013876277",
+        "_score": 6.9731526,
+        "_source": {
+          "objname": "王者历史课 第2季",
+          "objid": 11013876277,
+          "search_hotness": 3,
+          "play_hotness": 8.703981,
+          "obj_hot_score": 6.9731526
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11014003034",
+        "_score": 6.97262,
+        "_source": {
+          "objname": "饼干警长精华版",
+          "objid": 11014003034,
+          "search_hotness": 3,
+          "play_hotness": 6.698712,
+          "obj_hot_score": 6.97262
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013109320",
+        "_score": 6.9544086,
+        "_source": {
+          "objname": "雍正王朝",
+          "objid": 11013109320,
+          "search_hotness": 7.1189413,
+          "play_hotness": 10.122232,
+          "obj_hot_score": 6.9544086
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013954356",
+        "_score": 6.951358,
+        "_source": {
+          "objname": "【我的世界空岛战争】",
+          "objid": 11013954356,
+          "search_hotness": 5.882643,
+          "play_hotness": 9.103879,
+          "obj_hot_score": 6.951358
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      },
+      {
+        "_index": "unionsearch_vod_online_34275baf-d1b2-4a71-9227-cd9bc42501ee",
+        "_type": "vod_online",
+        "_id": "11013868675",
+        "_score": 6.9341407,
+        "_source": {
+          "objname": "勇敢者游戏：决战丛林（国语版）",
+          "objid": 11013868675,
+          "search_hotness": 3,
+          "play_hotness": 9.021298,
+          "obj_hot_score": 6.9341407
+        },
+        "matched_queries": [
+          "logged_featureset"
+        ]
+      }
+    ]
+  }
+},200, Map(access-control-allow-credentials -> Vector(true), content-encoding -> Vector(gzip), content-length -> Vector(5435), content-type -> Vector(application/json; charset=UTF-8), Status -> Vector(HTTP/1.1 200 OK)))

@@ -3,6 +3,7 @@ package com.MLTest
 import org.apache.spark.ml.feature.RFormula
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.sql.functions._
 
 /**
   * @author zhaoming on 2018-01-18 8:59
@@ -21,6 +22,17 @@ object RFormulaTest {
     )).toDF("id", "country", "hour", "clicked","my_test")
 
     dataset.show()
+
+    val ss = dataset.filter(col("id").===(lit(7)))
+      .select("country")
+    ss.show()
+
+    println(ss.rdd.toString())
+    val sss = ss.rdd.collect.apply(0)
+
+    println(sss.get(0).toString)
+
+
     val formula = new RFormula()
       .setFormula("clicked ~ country + hour + my_test")
       .setFeaturesCol("features")

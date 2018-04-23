@@ -1,0 +1,30 @@
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "terms": {
+            "_id": ["1674790", "3554742", "2064050"]
+          }
+        },
+        {
+          "sltr": {
+            "_name": "logged_featureset",
+            "featureset": "unionsearch_vod_similarity_features",
+            "params": {
+              "keywords": "lsl"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ext": {
+    "ltr_log": {
+      "log_specs": {
+        "name": "log_entry1",
+        "named_query": "logged_featureset"
+      }
+    }
+  }
+}

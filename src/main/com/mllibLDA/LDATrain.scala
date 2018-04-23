@@ -36,6 +36,7 @@ object LDATrain {
 
     //分词在这里
     val resultRDD = new PreUtils().run(data)
+
 //    如何权重
 
 

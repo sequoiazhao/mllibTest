@@ -74,7 +74,7 @@ object VectorTFIDF {
     val documents = cvModel.transform(tokenDF)
       .select("id", "features")
       .map { case Row(id: Long, features: Vector) => LabeledPoint(id, features) }
-    //documents.foreach(println)
+    documents.foreach(println)
 
     //2、=============调用自己的IDFtoidf--IDFModel 设定最小文档频率
 
@@ -216,7 +216,7 @@ object VectorTFIDF {
 
     //indexedDist.take(1).foreach(doc => (doc._1, doc._2.foreach(println)))
 
-    val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 5)
+    val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 25)
     val topicWords = topicIndices.map { case (terms, termWeights) =>
       terms.zip(termWeights).map { case (term, weight) => (cvModel.vocabulary(term.toInt), weight) }
     }
