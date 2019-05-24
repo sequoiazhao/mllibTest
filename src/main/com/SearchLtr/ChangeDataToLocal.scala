@@ -16,64 +16,72 @@ object ChangeDataToLocal {
     val sc = new SparkContext(conf)
     val MyContext = new HiveContext(sc)
 
-    val mdd = sc.textFile("D:\\dataframeData\\english")
+    val mdd = sc.textFile("D:\\dataframeData\\english0702")
 
     val sqlContext = SQLContext.getOrCreate(sc)
     import sqlContext.implicits._
+    //mdd.take(300).foreach(println)
+
     val datardd = mdd.map { x =>
       val s1 = x.replace("[", "").replace("]", "").split(",")
-      (s1(0), s1(1), s1(2), s1(3), s1(4), s1(5), s1(6), s1(7), s1(8), s1(9), s1(10),s1(11))
+
+      if (s1.length == 12) {
+        (s1(0), s1(1), s1(2), s1(3), s1(4), s1(5), s1(6), s1(7), s1(8), s1(9), s1(10), s1(11))
+      } else {
+        ("0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0")
+      }
     }
-    val SampleDataOriginal = datardd.toDF("score", "keyid", "rank", "mediaid", "lengthweight", "logplaytimes", "logsearchtimes", "new", "fee", "categoryweight", "srcsearchkey","title")
+    val SampleDataOriginal = datardd.toDF("score", "keyid", "rank", "mediaid", "lengthweight", "logplaytimes", "logsearchtimes", "new", "fee", "categoryweight", "srcsearchkey", "title")
       .persist(StorageLevel.MEMORY_ONLY_SER)
     //SampleDataOriginal.show()
 
-//    val relData1 = SampleDataOriginal.limit(800)
-//    val relData2 = SampleDataOriginal.filter(col("srcsearchkey").===(lit("BX")).or(col("srcsearchkey").===(lit("XC"))))
-//    val relDataAll = relData1.unionAll(relData2)
+    //    val relData1 = SampleDataOriginal.limit(800)
+    //    val relData2 = SampleDataOriginal.filter(col("srcsearchkey").===(lit("BX")).or(col("srcsearchkey").===(lit("XC"))))
+    //    val relDataAll = relData1.unionAll(relData2)
 
-   // println(SampleDataOriginal.count())
+    // println(SampleDataOriginal.count())
 
     //LH, MH , XC , XCA, SG , DG , BP , DL , ZH , XCM
-//    val relDataAll = SampleDataOriginal.filter(
-//      col("srcsearchkey").===(lit("LH"))
-//        .or(col("srcsearchkey").===(lit("MH")))
-//        .or(col("srcsearchkey").===(lit("XC")))
-//        .or(col("srcsearchkey").===(lit("XCA")))
-//        .or(col("srcsearchkey").===(lit("SG")))
-//        .or(col("srcsearchkey").===(lit("DG")))
-//        .or(col("srcsearchkey").===(lit("BP")))
-//        .or(col("srcsearchkey").===(lit("DL")))
-//        .or(col("srcsearchkey").===(lit("ZH")))
-//        .or(col("srcsearchkey").===(lit("XCM")))
-//        .or(col("srcsearchkey").===(lit("BX")))
-//        .or(col("srcsearchkey").===(lit("HM")))
-//        .or(col("srcsearchkey").===(lit("AQ")))
-//        .or(col("srcsearchkey").===(lit("CC")))
-//        .or(col("srcsearchkey").===(lit("HY")))
-//        .or(col("srcsearchkey").===(lit("HL")))
-//        .or(col("srcsearchkey").===(lit("NN")))
-//        .or(col("srcsearchkey").===(lit("KL")))
-//        .or(col("srcsearchkey").===(lit("SD")))
-//        .or(col("srcsearchkey").===(lit("ZJS")))
-//    )
-//
-//    relDataAll.rdd.saveAsTextFile("D:\\dataframeData\\englocal01")
-//
+    val relDataAll = SampleDataOriginal.filter(
+      col("srcsearchkey").===(lit("GX"))
+        .or(col("srcsearchkey").===(lit("WW")))
+        .or(col("srcsearchkey").===(lit("MQ")))
+        .or(col("srcsearchkey").===(lit("AQ")))
+        .or(col("srcsearchkey").===(lit("HY")))
+        .or(col("srcsearchkey").===(lit("ZH")))
+        .or(col("srcsearchkey").===(lit("JX")))
+        .or(col("srcsearchkey").===(lit("DL")))
+        .or(col("srcsearchkey").===(lit("JA")))
+        .or(col("srcsearchkey").===(lit("ATM")))
 
-    SampleDataOriginal.rdd.saveAsTextFile("D:\\dataframeData\\engalldata1")
-//    val relData = SampleDataOriginal.select("mediaid"
-//      , "srcsearchkey")
-//      .distinct()
-//      .groupBy("srcsearchkey")
-//      .agg(collect_set("mediaid").as("mediaArray"))
-//
-//    relData.rdd.saveAsTextFile("D:\\dataframeData\\engalldata")
-//    relData.rdd.saveAsTextFile("D:\\dataframeData\\englocal02")
-//
-//
-//    relDataAll.select("score","srcsearchkey","mediaid","title").show(2000,false)
-//    relData.show(2000,false)
+        .or(col("srcsearchkey").===(lit("XW")))
+        .or(col("srcsearchkey").===(lit("SH")))
+        .or(col("srcsearchkey").===(lit("WN")))
+        .or(col("srcsearchkey").===(lit("XX")))
+        .or(col("srcsearchkey").===(lit("XCM")))
+        .or(col("srcsearchkey").===(lit("HL")))
+        .or(col("srcsearchkey").===(lit("CZ")))
+        .or(col("srcsearchkey").===(lit("SS")))
+        .or(col("srcsearchkey").===(lit("WS")))
+        .or(col("srcsearchkey").===(lit("BP")))
+    )
+    //relDataAll.show()
+    relDataAll.rdd.saveAsTextFile("D:\\dataframeData\\englocal01_702")
+
+    //SampleDataOriginal.rdd.saveAsTextFile("D:\\dataframeData\\engalldata1")
+    // val relData = SampleDataOriginal.select("mediaid"
+    val relData = relDataAll.select("mediaid"
+      , "srcsearchkey")
+      .distinct()
+      .groupBy("srcsearchkey")
+      .agg(collect_set("mediaid").as("mediaArray"))
+
+    //relData.rdd.saveAsTextFile("D:\\dataframeData\\engalldata")
+    relData.rdd.saveAsTextFile("D:\\dataframeData\\englocal02_702")
+    //
+    //
+    relDataAll.select("score", "srcsearchkey", "mediaid", "title").show(2000, false)
+    //    relData.show(2000,false)
   }
 
 }

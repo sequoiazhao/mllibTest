@@ -28,6 +28,23 @@ object TestESearch {
 
     //accountRDD.foreach(t=>println(t._1+"==="+t._2))
 
+    val ssst = Seq(0, 1, 2, 3, 4, 4, 2, 1, 0, 1, 1, 2, 5)
+
+    val sssc = sc.parallelize(ssst)
+
+    val count = sssc.map(x=>(x,1)).reduceByKey(_+_).collect()
+    count.foreach(println)
+
+    val count2 =ssst.map(x=>(x,1)).toList
+      .groupBy(_._1).map { x =>
+      val key = x._1
+      val ttv = x._2.map(_._2).mkString(",")
+      (key, ttv.split(",").map(x => x.toDouble).sum)
+
+    }.toList.sortBy(_._2).reverse
+    count2.foreach(println)
+
+
 
 
   }

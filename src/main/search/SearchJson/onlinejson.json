@@ -1,0 +1,1327 @@
+{
+  "data": [
+    {
+      "obj_child_type": 0,
+      "category_name": "综艺",
+      "ltr_logs": {
+        "objname_bm25": 3.7052712
+      },
+      "category_id": 1002,
+      "objname": "<start>爱情<end>保卫战",
+      "objid": 1701613,
+      "objtype": 1,
+      "_score": 14.84556
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓4",
+      "objid": 1569250,
+      "objtype": 1,
+      "_score": 14.681513
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.8493533
+      },
+      "category_id": 1001,
+      "objname": "父母<start>爱情<end>",
+      "objid": 11013161538,
+      "objtype": 1,
+      "_score": 14.228483
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>10（下）",
+      "objid": 11013777104,
+      "objtype": 1,
+      "_score": 9.873172
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.6980982
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓2",
+      "objid": 1569578,
+      "objtype": 1,
+      "_score": 8.604323
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "游戏",
+      "ltr_logs": {
+        "objname_bm25": 3.852868
+      },
+      "category_id": 1028,
+      "objname": "<start>奥奇<end>传说",
+      "objid": 11013995173,
+      "objtype": 1,
+      "_score": 8.303054
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>3",
+      "objid": 11012132414,
+      "objtype": 1,
+      "_score": 7.5272884
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>2",
+      "objid": 11012129557,
+      "objtype": 1,
+      "_score": 7.454254
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.6980982
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>4",
+      "objid": 11012132413,
+      "objtype": 1,
+      "_score": 7.402294
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓3",
+      "objid": 11012493283,
+      "objtype": 1,
+      "_score": 7.1276217
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.5751188
+      },
+      "category_id": 1001,
+      "objname": "北京<start>爱情<end>故事",
+      "objid": 3889846,
+      "objtype": 1,
+      "_score": 6.7703876
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 73.9927
+      },
+      "category_id": 1004,
+      "objname": "<start>阿Q<end>正传",
+      "objid": 2058282,
+      "objtype": 1,
+      "_score": 6.478569
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.7052712
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>1",
+      "objid": 11012129559,
+      "objtype": 1,
+      "_score": 6.3334446
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.5751188
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>9（下）",
+      "objid": 11012141323,
+      "objtype": 1,
+      "_score": 6.3138027
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.3247397
+      },
+      "category_id": 1001,
+      "objname": "遇见<start>爱情<end>的利先生",
+      "objid": 3715346,
+      "objtype": 1,
+      "_score": 6.1408997
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>10（上）",
+      "objid": 11013536062,
+      "objtype": 1,
+      "_score": 5.9819493
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.5715861
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>9（上）",
+      "objid": 11012138789,
+      "objtype": 1,
+      "_score": 5.9729166
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1004,
+      "objname": "蝙蝠侠：黑<start>暗骑<end>士",
+      "objid": 3650932,
+      "objtype": 1,
+      "_score": 5.8830013
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.0198562
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓外传之开心原力",
+      "objid": 2174480,
+      "objtype": 1,
+      "_score": 5.6960087
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>浪漫曲",
+      "objid": 11013849890,
+      "objtype": 1,
+      "_score": 5.1621084
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "幼儿",
+      "ltr_logs": {
+        "objname_bm25": 3.222758
+      },
+      "category_id": 1012,
+      "objname": "小猪佩奇之<start>安全<end>教育",
+      "objid": 3953542,
+      "objtype": 1,
+      "_score": 5.134891
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓番外篇",
+      "objid": 1568599,
+      "objtype": 1,
+      "_score": 4.967101
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "幼儿",
+      "ltr_logs": {
+        "objname_bm25": 3.5751188
+      },
+      "category_id": 1012,
+      "objname": "可可小<start>爱全<end>集",
+      "objid": 2278982,
+      "objtype": 1,
+      "_score": 4.9526424
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.2164943
+      },
+      "category_id": 1001,
+      "objname": "北上广依然相信<start>爱情<end>",
+      "objid": 3616940,
+      "objtype": 1,
+      "_score": 4.583067
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.5751188
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>8（下）",
+      "objid": 11012139085,
+      "objtype": 1,
+      "_score": 4.5458727
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.6980982
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>碟中谍",
+      "objid": 1937793,
+      "objtype": 1,
+      "_score": 4.499457
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.1246178
+      },
+      "category_id": 1001,
+      "objname": "钻石王老五的艰难<start>爱情<end>",
+      "objid": 11012714583,
+      "objtype": 1,
+      "_score": 4.36469
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "幼儿",
+      "ltr_logs": {
+        "objname_bm25": 3.3247397
+      },
+      "category_id": 1012,
+      "objname": "可<start>爱巧<end>虎岛 第2季",
+      "objid": 11012523126,
+      "objtype": 1,
+      "_score": 4.2330585
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "综艺",
+      "ltr_logs": {
+        "objname_bm25": 3.5715861
+      },
+      "category_id": 1002,
+      "objname": "<start>爱奇<end>艺早班机",
+      "objid": 1722059,
+      "objtype": 1,
+      "_score": 4.209748
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8493533
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>公寓",
+      "objid": 345462,
+      "objtype": 1,
+      "_score": 4.050501
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.5751188
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>代替套路",
+      "objid": 11013707765,
+      "objtype": 1,
+      "_score": 4.0168343
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1001,
+      "objname": "因为<start>爱情<end>有幸福",
+      "objid": 2056079,
+      "objtype": 1,
+      "_score": 3.9076533
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.6980982
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>回来了",
+      "objid": 1568091,
+      "objtype": 1,
+      "_score": 3.879227
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.7052712
+      },
+      "category_id": 1004,
+      "objname": "第二次<start>爱情<end>",
+      "objid": 1334280,
+      "objtype": 1,
+      "_score": 3.8783774
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "幼儿",
+      "ltr_logs": {
+        "objname_bm25": 3.2262528
+      },
+      "category_id": 1012,
+      "objname": "可<start>爱巧<end>虎岛 第2季3",
+      "objid": 11013563010,
+      "objtype": 1,
+      "_score": 3.8275666
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8419101
+      },
+      "category_id": 1004,
+      "objname": "格子<start>爱情<end>",
+      "objid": 11013776985,
+      "objtype": 1,
+      "_score": 3.750861
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.334722
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>7:圆舞曲",
+      "objid": 11011921094,
+      "objtype": 1,
+      "_score": 3.7220678
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.2164943
+      },
+      "category_id": 1004,
+      "objname": "蝙蝠侠：黑<start>暗骑<end>士崛起",
+      "objid": 3650824,
+      "objtype": 1,
+      "_score": 3.587101
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "综艺",
+      "ltr_logs": {
+        "objname_bm25": 3.5646646
+      },
+      "category_id": 1002,
+      "objname": "<start>爱奇<end>艺爱电影",
+      "objid": 1716991,
+      "objtype": 1,
+      "_score": 3.5788414
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1001,
+      "objname": "翠兰的<start>爱情<end>",
+      "objid": 11012802386,
+      "objtype": 1,
+      "_score": 3.5386658
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.2164943
+      },
+      "category_id": 1004,
+      "objname": "北京<start>爱情<end>故事(极清版)",
+      "objid": 1569788,
+      "objtype": 1,
+      "_score": 3.4715245
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1001,
+      "objname": "国土<start>安全<end>第五季",
+      "objid": 11012538755,
+      "objtype": 1,
+      "_score": 3.3656313
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "游戏",
+      "ltr_logs": {
+        "objname_bm25": 3.334722
+      },
+      "category_id": 1028,
+      "objname": "儿童<start>安全<end>益智游戏",
+      "objid": 11013777079,
+      "objtype": 1,
+      "_score": 3.3032897
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4405243
+      },
+      "category_id": 1001,
+      "objname": "乡村<start>爱情<end>圆舞曲",
+      "objid": 11012385809,
+      "objtype": 1,
+      "_score": 3.2218673
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.5715861
+      },
+      "category_id": 1004,
+      "objname": "北京<start>爱情<end>故事",
+      "objid": 346717,
+      "objtype": 1,
+      "_score": 3.2200203
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "综艺",
+      "ltr_logs": {
+        "objname_bm25": 3.7052712
+      },
+      "category_id": 1002,
+      "objname": "<start>爱情<end>保卫战",
+      "objid": 1336328,
+      "objtype": 1,
+      "_score": 3.0927408
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.6980982
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>不打烊",
+      "objid": 11013536185,
+      "objtype": 1,
+      "_score": 3.089262
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓 第一季",
+      "objid": 11012381125,
+      "objtype": 1,
+      "_score": 3.047159
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8493533
+      },
+      "category_id": 1004,
+      "objname": "天台<start>爱情<end>",
+      "objid": 2213973,
+      "objtype": 1,
+      "_score": 3.0408533
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.222758
+      },
+      "category_id": 1001,
+      "objname": "因为<start>爱情<end>有幸福之二",
+      "objid": 2065170,
+      "objtype": 1,
+      "_score": 3.0369358
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.6980982
+      },
+      "category_id": 1004,
+      "objname": "第三种<start>爱情<end>",
+      "objid": 1858801,
+      "objtype": 1,
+      "_score": 3.002578
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1001,
+      "objname": "翠兰的<start>爱情<end>",
+      "objid": 1568767,
+      "objtype": 1,
+      "_score": 2.8620248
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓 第三季",
+      "objid": 11012382050,
+      "objtype": 1,
+      "_score": 2.8199358
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.9973595
+      },
+      "category_id": 1004,
+      "objname": "<start>安全<end>期",
+      "objid": 1332143,
+      "objtype": 1,
+      "_score": 2.7800953
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8419101
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>故事",
+      "objid": 1333048,
+      "objtype": 1,
+      "_score": 2.7475982
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.5646646
+      },
+      "category_id": 1001,
+      "objname": "大都市小<start>爱情<end>",
+      "objid": 1568840,
+      "objtype": 1,
+      "_score": 2.7254364
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.1211462
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓番外篇第二季",
+      "objid": 1971189,
+      "objtype": 1,
+      "_score": 2.6816955
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.852868
+      },
+      "category_id": 1004,
+      "objname": "旋转<start>爱情<end>",
+      "objid": 3630998,
+      "objtype": 1,
+      "_score": 2.5876741
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "教育",
+      "ltr_logs": {
+        "objname_bm25": 3.4507387
+      },
+      "category_id": 1011,
+      "objname": "<start>安全<end>教育我知道",
+      "objid": 11012661405,
+      "objtype": 1,
+      "_score": 2.579234
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8419101
+      },
+      "category_id": 1004,
+      "objname": "黑<start>暗侵<end>喜",
+      "objid": 2157663,
+      "objtype": 1,
+      "_score": 2.54607
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8493533
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>牧场",
+      "objid": 1333371,
+      "objtype": 1,
+      "_score": 2.5262327
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "幼儿",
+      "ltr_logs": {
+        "objname_bm25": 3.7052712
+      },
+      "category_id": 1012,
+      "objname": "可<start>爱巧<end>虎岛",
+      "objid": 1717592,
+      "objtype": 1,
+      "_score": 2.5247815
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "音乐",
+      "ltr_logs": {
+        "objname_bm25": 3.334722
+      },
+      "category_id": 1006,
+      "objname": "信 - 远得要命的<start>爱情<end>",
+      "objid": 2095527,
+      "objtype": 1,
+      "_score": 2.5247478
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.115075
+      },
+      "category_id": 1004,
+      "objname": "致我们终将到来的<start>爱情<end>",
+      "objid": 2157073,
+      "objtype": 1,
+      "_score": 2.4815147
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "幼儿",
+      "ltr_logs": {
+        "objname_bm25": 3.5751188
+      },
+      "category_id": 1012,
+      "objname": "少儿<start>安全<end>教育",
+      "objid": 1099256,
+      "objtype": 1,
+      "_score": 2.4798005
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "母婴",
+      "ltr_logs": {
+        "objname_bm25": 3.334722
+      },
+      "category_id": 1025,
+      "objname": "幼儿<start>安全<end>教育动画",
+      "objid": 3683218,
+      "objtype": 1,
+      "_score": 2.473298
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.852868
+      },
+      "category_id": 1004,
+      "objname": "因为<start>爱情<end>",
+      "objid": 11012919480,
+      "objtype": 1,
+      "_score": 2.469644
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.447212
+      },
+      "category_id": 1001,
+      "objname": "国土<start>安全<end>第二季",
+      "objid": 11012621100,
+      "objtype": 1,
+      "_score": 2.456173
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.2164943
+      },
+      "category_id": 1001,
+      "objname": "我的<start>爱情<end>撞上了战争",
+      "objid": 2228235,
+      "objtype": 1,
+      "_score": 2.3847103
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.3247397
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>万岁（1994）",
+      "objid": 2065500,
+      "objtype": 1,
+      "_score": 2.383988
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.852868
+      },
+      "category_id": 1004,
+      "objname": "播种<start>爱情<end>",
+      "objid": 1584968,
+      "objtype": 1,
+      "_score": 2.3829956
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.852868
+      },
+      "category_id": 1004,
+      "objname": "珍<start>爱泉<end>源",
+      "objid": 11012451220,
+      "objtype": 1,
+      "_score": 2.3825326
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "原创",
+      "ltr_logs": {
+        "objname_bm25": 3.334722
+      },
+      "category_id": 1023,
+      "objname": "<<start>爱情<end>保卫战>第二季",
+      "objid": 11012199834,
+      "objtype": 1,
+      "_score": 2.3718812
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>不NG",
+      "objid": 11012802047,
+      "objtype": 1,
+      "_score": 2.291238
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.5751188
+      },
+      "category_id": 1004,
+      "objname": "黑<start>暗骑<end>士崛起",
+      "objid": 2173041,
+      "objtype": 1,
+      "_score": 2.2577147
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.5751188
+      },
+      "category_id": 1004,
+      "objname": "玉子<start>爱情<end>故事",
+      "objid": 11012959683,
+      "objtype": 1,
+      "_score": 2.206549
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.6980982
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>36计",
+      "objid": 11012802151,
+      "objtype": 1,
+      "_score": 2.1847696
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.4405243
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>、婚礼和婚姻",
+      "objid": 344565,
+      "objtype": 1,
+      "_score": 2.165783
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "综艺",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1002,
+      "objname": "<start>爱情<end>找对门",
+      "objid": 11012966562,
+      "objtype": 1,
+      "_score": 2.1559849
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.1211462
+      },
+      "category_id": 1004,
+      "objname": "那件疯狂的小事叫<start>爱情<end>",
+      "objid": 2259965,
+      "objtype": 1,
+      "_score": 2.132752
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.7052712
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>与遗产",
+      "objid": 1332925,
+      "objtype": 1,
+      "_score": 2.0846465
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8419101
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>银行",
+      "objid": 11012802025,
+      "objtype": 1,
+      "_score": 2.05895
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.447212
+      },
+      "category_id": 1001,
+      "objname": "将<start>爱情<end>进行到底",
+      "objid": 11012833319,
+      "objtype": 1,
+      "_score": 2.0428045
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "纪录片",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1003,
+      "objname": "<start>爱情<end>与欲望",
+      "objid": 1505931,
+      "objtype": 1,
+      "_score": 2.0405512
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8419101
+      },
+      "category_id": 1004,
+      "objname": "<start>傲气<end>盖天",
+      "objid": 3641682,
+      "objtype": 1,
+      "_score": 2.0326052
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.7052712
+      },
+      "category_id": 1004,
+      "objname": "登陆<start>安其<end>奥",
+      "objid": 2066391,
+      "objtype": 1,
+      "_score": 1.9956388
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.222758
+      },
+      "category_id": 1004,
+      "objname": "虐心<start>爱情<end>故事之炼爱",
+      "objid": 2250111,
+      "objtype": 1,
+      "_score": 1.9893802
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.447212
+      },
+      "category_id": 1001,
+      "objname": "国土<start>安全<end>第四季",
+      "objid": 11012249357,
+      "objtype": 1,
+      "_score": 1.9633384
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>无限谱",
+      "objid": 2152523,
+      "objtype": 1,
+      "_score": 1.957735
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 2.9394193
+      },
+      "category_id": 1001,
+      "objname": "遇见<start>爱情<end>的利先生DVD版",
+      "objid": 3715303,
+      "objtype": 1,
+      "_score": 1.9487045
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "综艺",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1002,
+      "objname": "出发吧<start>爱情<end>",
+      "objid": 1603187,
+      "objtype": 1,
+      "_score": 1.9479651
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.6980982
+      },
+      "category_id": 1004,
+      "objname": "藏<start>獒情<end>未了",
+      "objid": 11012889583,
+      "objtype": 1,
+      "_score": 1.9308078
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.334722
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓那些事儿",
+      "objid": 1569217,
+      "objtype": 1,
+      "_score": 1.9226286
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.7088006
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>无线牵",
+      "objid": 11012889717,
+      "objtype": 1,
+      "_score": 1.9004374
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.115075
+      },
+      "category_id": 1001,
+      "objname": "北京<start>爱情<end>故事(3D废弃)",
+      "objid": 1569667,
+      "objtype": 1,
+      "_score": 1.8876747
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.4405243
+      },
+      "category_id": 1001,
+      "objname": "奶爸的<start>爱情<end>生活",
+      "objid": 1983202,
+      "objtype": 1,
+      "_score": 1.8844023
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电影",
+      "ltr_logs": {
+        "objname_bm25": 3.8493533
+      },
+      "category_id": 1004,
+      "objname": "<start>爱情<end>准则",
+      "objid": 2186540,
+      "objtype": 1,
+      "_score": 1.8566016
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "原创",
+      "ltr_logs": {
+        "objname_bm25": 3.334722
+      },
+      "category_id": 1023,
+      "objname": "<<start>爱情<end>保卫战>第一季",
+      "objid": 11012199829,
+      "objtype": 1,
+      "_score": 1.8438346
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "综艺",
+      "ltr_logs": {
+        "objname_bm25": 3.7052712
+      },
+      "category_id": 1002,
+      "objname": "<start>爱情<end>连连看",
+      "objid": 1569916,
+      "objtype": 1,
+      "_score": 1.8419651
+    },
+    {
+      "obj_child_type": 0,
+      "category_name": "电视剧",
+      "ltr_logs": {
+        "objname_bm25": 3.5715861
+      },
+      "category_id": 1001,
+      "objname": "<start>爱情<end>公寓外传",
+      "objid": 314244,
+      "objtype": 1,
+      "_score": 1.7901946
+    }
+  ],
+  "count": [
+    {
+      "total": 44,
+      "category_name": "综艺",
+      "category_id": "1002"
+    },
+    {
+      "total": 74,
+      "category_name": "电视剧",
+      "category_id": "1001"
+    },
+    {
+      "total": 48,
+      "category_name": "游戏",
+      "category_id": "1028"
+    },
+    {
+      "total": 140,
+      "category_name": "电影",
+      "category_id": "1004"
+    },
+    {
+      "total": 30,
+      "category_name": "幼儿",
+      "category_id": "1012"
+    },
+    {
+      "total": 63,
+      "category_name": "教育",
+      "category_id": "1011"
+    },
+    {
+      "total": 2011,
+      "category_name": "音乐",
+      "category_id": "1006"
+    },
+    {
+      "total": 136,
+      "category_name": "母婴",
+      "category_id": "1025"
+    },
+    {
+      "total": 158,
+      "category_name": "原创",
+      "category_id": "1023"
+    },
+    {
+      "total": 34,
+      "category_name": "纪录片",
+      "category_id": "1003"
+    },
+    {
+      "total": 5,
+      "category_name": "动漫",
+      "category_id": "1005"
+    },
+    {
+      "total": 395,
+      "category_name": "体育",
+      "category_id": "1007"
+    },
+    {
+      "total": 1659,
+      "category_name": "娱乐",
+      "category_id": "1010"
+    },
+    {
+      "total": 222,
+      "category_name": "财经",
+      "category_id": "1014"
+    },
+    {
+      "total": 261,
+      "category_name": "汽车",
+      "category_id": "1015"
+    },
+    {
+      "total": 244,
+      "category_name": "生活",
+      "category_id": "1016"
+    },
+    {
+      "total": 6761,
+      "category_name": "资讯",
+      "category_id": "1017"
+    },
+    {
+      "total": 20,
+      "category_name": "旅游",
+      "category_id": "1019"
+    },
+    {
+      "total": 171,
+      "category_name": "片花",
+      "category_id": "1020"
+    },
+    {
+      "total": 111,
+      "category_name": "时尚",
+      "category_id": "1021"
+    },
+    {
+      "total": 293,
+      "category_name": "搞笑",
+      "category_id": "1022"
+    },
+    {
+      "total": 96,
+      "category_name": "军事",
+      "category_id": "1024"
+    },
+    {
+      "total": 51,
+      "category_name": "科技",
+      "category_id": "1026"
+    },
+    {
+      "total": 189,
+      "category_name": "健康",
+      "category_id": "1027"
+    }
+  ],
+  "total": 13216
+}
